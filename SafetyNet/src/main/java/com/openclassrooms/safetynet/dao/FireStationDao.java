@@ -1,6 +1,7 @@
 package com.openclassrooms.safetynet.dao;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -17,6 +18,13 @@ public class FireStationDao implements IFireStationDao{
 	public List<FireStationModel> fetchAllFireStation() {
 		DataModel dataModel = generiqueDataModelDao.fetchData();
 		return dataModel.getFirestations();
+	}
+
+	@Override
+	public List<FireStationModel> fetchFireStationsByStationNumber(int stationNumber) {
+		return fetchAllFireStation().stream()
+				.filter(firestation -> firestation.getStation() == stationNumber)
+				.collect(Collectors.toList());
 	}
 	
 }

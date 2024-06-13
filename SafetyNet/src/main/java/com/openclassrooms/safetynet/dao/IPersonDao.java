@@ -9,5 +9,4 @@ public interface IPersonDao {
 	Optional<PersonModel> findByEmail(String email);
 	public void create(PersonModel personModel);
 	List<PersonModel> fecthAllPerson();
-	
 }

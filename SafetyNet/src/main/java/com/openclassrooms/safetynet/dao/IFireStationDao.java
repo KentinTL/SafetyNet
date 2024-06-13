@@ -6,5 +6,5 @@ import com.openclassrooms.safetynet.model.FireStationModel;
 
 public interface IFireStationDao {
 	List<FireStationModel> fetchAllFireStation();
-	
+	List<FireStationModel> fetchFireStationsByStationNumber(int stationNumber);
 }

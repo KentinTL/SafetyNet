@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.openclassrooms.safetynet.model.FireStationModel;
 import com.openclassrooms.safetynet.services.IFireStationService;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 
 
@@ -17,8 +19,9 @@ public class FireStationController {
 	@Autowired
 	private IFireStationService ifirestationservice;
 	
-	@GetMapping("/firestation") 
-	public List<FireStationModel>getAllFireStations() { 
-		return ifirestationservice.consultAllfirestations();
-	}
+	/*
+	 * @GetMapping("/firestation") public List<FireStationModel>getAllFireStations()
+	 * { return ifirestationservice.consultAllfirestations(); }
+	 */
+	
 }

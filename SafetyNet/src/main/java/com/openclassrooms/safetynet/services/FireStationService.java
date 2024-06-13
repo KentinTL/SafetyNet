@@ -15,38 +15,8 @@ public class FireStationService implements IFireStationService{
 	private IFireStationDao iFireStationDao;
 
 	@Override
-	public FireStationModel consultFirestation(int numStation) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public FireStationModel consultFirestationByAddress(String address) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	public List<FireStationModel> consultAllfirestations() {
 		return iFireStationDao.fetchAllFireStation();
-	}
-
-	@Override
-	public void deleteMappingFireStation(String address) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void addMappingFireStation(FireStationModel fireStationModel) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void updateMappingFireStation(String address, int newStationNumber) {
-		// TODO Auto-generated method stub
-		
 	}
 
 }
