@@ -4,23 +4,27 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
-import java.util.Collection;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import javax.tools.Tool;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.openclassrooms.safetynet.controller.dto.response.InfosChildByAdress;
 import com.openclassrooms.safetynet.controller.dto.response.InfosPersonsByFireStation;
+import com.openclassrooms.safetynet.controller.dto.response.MinimalPersonModel;
 import com.openclassrooms.safetynet.controller.dto.response.PersonInfos;
+import com.openclassrooms.safetynet.controller.dto.response.PersonModelWithAge;
 import com.openclassrooms.safetynet.dao.IFireStationDao;
 import com.openclassrooms.safetynet.dao.IMedicalRecordDao;
 import com.openclassrooms.safetynet.dao.IPersonDao;
-import com.openclassrooms.safetynet.model.DataModel;
 import com.openclassrooms.safetynet.model.FireStationModel;
-import com.openclassrooms.safetynet.model.MedicalRecordModel;
 import com.openclassrooms.safetynet.model.PersonModel;
+import com.openclassrooms.safetynet.utilities.Tools;
 
 @Service
 public class PersonService implements IPersonService{
@@ -41,18 +45,6 @@ public class PersonService implements IPersonService{
 			throw new RuntimeException("Person already exist");
 		}
 		iPersonDao.create(personModel);
-	}
-	
-	private int getAge(String birthDate) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        try {
-            LocalDate birthDateLocal = LocalDate.parse(birthDate, formatter);
-            LocalDate currentDate = LocalDate.now();
-            return Period.between(birthDateLocal, currentDate).getYears();
-        } catch (DateTimeParseException e) {
-            System.out.println("Invalid date format: " + birthDate);
-            return 0;
-        }
 	}
 	
 	private PersonInfos mapToPersonInfos(PersonModel personModel) {
@@ -88,8 +80,8 @@ public class PersonService implements IPersonService{
 				.filter(t -> !t.isBlank())
 				.toList();
 		
-		long adultCount = agePersons.stream().map(t -> getAge(t)).filter(age -> age > 18).count();
-		long childCount = agePersons.stream().map(t -> getAge(t)).filter(age -> age <= 18).count();
+		long adultCount = agePersons.stream().map(t -> Tools.getAge(t)).filter(age -> Tools.isAdult(age)).count();
+		long childCount = agePersons.stream().map(t -> Tools.getAge(t)).filter(age -> Tools.isChild(age)).count();
 		
 		int intChildCount = (int) childCount;
 		int intAdultCount = (int) adultCount;
@@ -98,6 +90,27 @@ public class PersonService implements IPersonService{
 		result.setChildCount(intChildCount);
 		result.setPersonInfos(personsList.stream().map(pesonModel -> mapToPersonInfos(pesonModel)).toList());
 		return result;
+	}
+
+	@Override
+	public InfosChildByAdress getChildUnderEighteen(String address) {
+		
+		Optional<List<PersonModel>> allPersonsList = iPersonDao.findByAddress(address);
+		
+		List<PersonModelWithAge> childList = new ArrayList<PersonModelWithAge>();
+		List<MinimalPersonModel> adultList = new ArrayList<MinimalPersonModel>();
+		
+		for (PersonModel person: allPersonsList.get()) {
+			int ageChild = Tools.getAge(iMedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(person.getFirstName(), person.getLastName()));
+			
+			if(Tools.isChild(ageChild)) {
+				childList.add(new PersonModelWithAge(person.getFirstName(), person.getLastName(), ageChild));
+			}else {
+				adultList.add(new MinimalPersonModel(person.getFirstName(), person.getLastName()));
+			}
+		}
+		
+		return (childList.size()>0) ? new InfosChildByAdress(childList, adultList) : null;
 	}
 	
 }

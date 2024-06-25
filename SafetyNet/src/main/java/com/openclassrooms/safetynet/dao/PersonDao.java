@@ -26,6 +26,13 @@ public class PersonDao implements IPersonDao{
 	}
 
 	@Override
+	public Optional<List<PersonModel>> findByAddress(String address) {
+		dataModel = generiqueDataModelDao.fetchData();
+
+		return Optional.of(dataModel.getPersons().stream().filter(t -> t.getAddress().equals(address)).toList());
+	}
+	
+	@Override
 	public void create(PersonModel personModel) {
 		dataModel = generiqueDataModelDao.fetchData();
 		dataModel.getPersons().add(personModel);
@@ -37,4 +44,6 @@ public class PersonDao implements IPersonDao{
 		dataModel = generiqueDataModelDao.fetchData();
 		return dataModel.getPersons();
 	}
+
+
 }

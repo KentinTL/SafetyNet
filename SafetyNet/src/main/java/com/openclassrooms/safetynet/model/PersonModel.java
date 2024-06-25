@@ -1,7 +1,8 @@
 package com.openclassrooms.safetynet.model;
 
 public class PersonModel {
-    private String firstName;
+	
+	private String firstName;
     private String lastName;
     private String address;
     private String city;
