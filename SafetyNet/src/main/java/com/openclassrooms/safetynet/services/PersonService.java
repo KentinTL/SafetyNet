@@ -1,15 +1,10 @@
 package com.openclassrooms.safetynet.services;
 
-import java.time.LocalDate;
-import java.time.Period;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 import java.util.stream.Collectors;
-
-import javax.tools.Tool;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,6 +14,7 @@ import com.openclassrooms.safetynet.controller.dto.response.InfosPersonsByFireSt
 import com.openclassrooms.safetynet.controller.dto.response.MinimalPersonModel;
 import com.openclassrooms.safetynet.controller.dto.response.PersonInfos;
 import com.openclassrooms.safetynet.controller.dto.response.PersonModelWithAge;
+import com.openclassrooms.safetynet.controller.dto.response.PersonPhoneNumber;
 import com.openclassrooms.safetynet.dao.IFireStationDao;
 import com.openclassrooms.safetynet.dao.IMedicalRecordDao;
 import com.openclassrooms.safetynet.dao.IPersonDao;
@@ -112,5 +108,35 @@ public class PersonService implements IPersonService{
 		
 		return (childList.size()>0) ? new InfosChildByAdress(childList, adultList) : null;
 	}
+
+	@Override
+	public PersonPhoneNumber getAllPhoneNumberByFireStationNumber(int stationNumber) {
+		
+		List<FireStationModel> fireStationList = iFireStationDao.fetchFireStationsByStationNumber(stationNumber);
+
+		List<String> fireStationAddresses =  fireStationList.stream()
+				.map(firestation -> firestation.getAddress())
+				.collect(Collectors.toList());
+		
+		System.out.println(fireStationAddresses);
+		
+		List<PersonModel> personsCoveredByFireStation = iPersonDao.fecthAllPerson().stream()
+				.filter(personModel -> fireStationAddresses.contains(personModel.getAddress()))
+				.collect(Collectors.toList());
+		
+		Set<String> phoneNumbersSet = personsCoveredByFireStation.stream()
+				.map(person -> person.getPhone())
+				.collect(Collectors.toSet());
+		
+		List<String> phoneNumbers = new ArrayList<>(phoneNumbersSet);
+		
+		System.out.println(phoneNumbers);
+		
+		PersonPhoneNumber result = new PersonPhoneNumber();
+		result.setPhoneNumberList(phoneNumbers);
+		return result;
+	}
+	
+	
 	
 }

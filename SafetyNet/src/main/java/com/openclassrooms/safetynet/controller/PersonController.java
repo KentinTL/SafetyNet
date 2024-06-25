@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.openclassrooms.safetynet.controller.dto.response.InfosChildByAdress;
 import com.openclassrooms.safetynet.controller.dto.response.InfosPersonsByFireStation;
+import com.openclassrooms.safetynet.controller.dto.response.PersonPhoneNumber;
 import com.openclassrooms.safetynet.model.PersonModel;
 import com.openclassrooms.safetynet.services.IPersonService;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -31,5 +32,10 @@ public class PersonController {
 	@GetMapping("/childAlert")
 	public InfosChildByAdress getChildByAddress(@RequestParam String address) {
 		return ipersonservice.getChildUnderEighteen(address);
+	}
+	
+	@GetMapping("/phoneAlert")
+	public PersonPhoneNumber getPhoneByFireStation(@RequestParam int firestation) {
+		return ipersonservice.getAllPhoneNumberByFireStationNumber(firestation);
 	}
 }
