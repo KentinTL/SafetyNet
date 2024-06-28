@@ -7,5 +7,5 @@ import com.openclassrooms.safetynet.model.MedicalRecordModel;
 
 public interface IMedicalRecordDao {
 	List<MedicalRecordModel> fetchAllMedicalRecord();
-	String fetchMedicalRecordByFirstNameAndLastName(String firstName, String lastName);
+	Optional<MedicalRecordModel> fetchMedicalRecordByFirstNameAndLastName(String firstName, String lastName);
 }

@@ -21,13 +21,12 @@ public class MedicalRecordDao implements IMedicalRecordDao {
 		dataModel = generiqueDataModelDao.fetchData();
 		return dataModel.getMedicalrecords();
 	}
-
+	
 	@Override
-	public String fetchMedicalRecordByFirstNameAndLastName(String firstName, String lastName) {
+	public Optional<MedicalRecordModel> fetchMedicalRecordByFirstNameAndLastName(String firstName, String lastName) {
 		return fetchAllMedicalRecord().stream()
 				.filter(medicalRecord -> medicalRecord.getFirstName().equals(firstName)&& medicalRecord.getLastName().equals(lastName))
-				.map(t -> t.getBirthdate())
-				.findFirst().orElse("");
+				.findFirst();
 	}
 
 }

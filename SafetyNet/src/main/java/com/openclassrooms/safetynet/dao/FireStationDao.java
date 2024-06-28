@@ -1,6 +1,7 @@
 package com.openclassrooms.safetynet.dao;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +26,14 @@ public class FireStationDao implements IFireStationDao{
 		return fetchAllFireStation().stream()
 				.filter(firestation -> firestation.getStation() == stationNumber)
 				.collect(Collectors.toList());
+	}
+
+	@Override
+	public Optional<FireStationModel> fetchFireStationByAddress(String address) {
+
+		return fetchAllFireStation().stream()
+				.filter(firestation -> firestation.getAddress().equals(address))
+				.findFirst();
 	}
 	
 }
