@@ -5,7 +5,19 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
+import com.openclassrooms.safetynet.controller.dto.response.PersonInfos;
+import com.openclassrooms.safetynet.model.PersonModel;
+
 public class Tools {
+	
+	public static PersonInfos mapToPersonInfos(PersonModel personModel) {
+		PersonInfos result = new PersonInfos();
+		result.setAddress(personModel.getAddress());
+		result.setFirestName(personModel.getFirstName());
+		result.setLastName(personModel.getLastName());
+		result.setPhone(personModel.getPhone());
+		return result;
+	}
 	
 	public static int getAge(String birthDate) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");

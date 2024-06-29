@@ -33,6 +33,14 @@ public class PersonDao implements IPersonDao{
 	}
 	
 	@Override
+	public Optional<List<PersonModel>>  findPersonByCity(String city) {
+		dataModel = generiqueDataModelDao.fetchData();
+		return Optional.of(dataModel.getPersons().stream()
+				.filter(personModel -> personModel.getCity().equals(city))
+				.toList());
+	}
+	
+	@Override
 	public void create(PersonModel personModel) {
 		dataModel = generiqueDataModelDao.fetchData();
 		dataModel.getPersons().add(personModel);
