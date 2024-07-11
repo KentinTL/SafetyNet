@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.openclassrooms.safetynet.controller.dto.response.InfosChildByAdress;
 import com.openclassrooms.safetynet.controller.dto.response.InfosMailsByCity;
+import com.openclassrooms.safetynet.controller.dto.response.InfosPersonByLastName;
 import com.openclassrooms.safetynet.controller.dto.response.ResidentAndFireStationByAddress;
 import com.openclassrooms.safetynet.model.PersonModel;
 import com.openclassrooms.safetynet.services.IPersonService;
@@ -42,6 +43,12 @@ public class PersonController {
 	public InfosMailsByCity getMailsByCity(@RequestParam String city) {
 		return ipersonservice.getMailsByCity(city);
 	}
+	
+	@GetMapping("/personInfolastName")
+	public InfosPersonByLastName getInfosPersonsByLastName(@RequestParam String lastname) {
+		return ipersonservice.getInfosPersonsByLastName(lastname);
+	}
+	
 	
 	
 }

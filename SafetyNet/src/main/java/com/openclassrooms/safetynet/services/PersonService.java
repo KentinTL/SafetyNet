@@ -9,9 +9,12 @@ import org.springframework.stereotype.Service;
 
 import com.openclassrooms.safetynet.controller.dto.response.InfosChildByAdress;
 import com.openclassrooms.safetynet.controller.dto.response.InfosMailsByCity;
+import com.openclassrooms.safetynet.controller.dto.response.InfosPersonByLastName;
 import com.openclassrooms.safetynet.controller.dto.response.MinimalPersonModel;
 import com.openclassrooms.safetynet.controller.dto.response.PersonMail;
 import com.openclassrooms.safetynet.controller.dto.response.PersonModelWithAge;
+import com.openclassrooms.safetynet.controller.dto.response.PersonsInfosAndMedical;
+import com.openclassrooms.safetynet.controller.dto.response.ResidentByAddress;
 import com.openclassrooms.safetynet.dao.IMedicalRecordDao;
 import com.openclassrooms.safetynet.dao.IPersonDao;
 import com.openclassrooms.safetynet.model.PersonModel;
@@ -81,6 +84,26 @@ public class PersonService implements IPersonService{
 		}
 		
 		return new InfosMailsByCity(personMails);
+	}
+
+	@Override
+	public InfosPersonByLastName getInfosPersonsByLastName(String lastName) {
+		List<PersonsInfosAndMedical> personsByLastName = new ArrayList<PersonsInfosAndMedical>();
+		
+		Optional<List<PersonModel>> allPersonsByLastName = iPersonDao.findPersonsByLastName(lastName);
+		
+		for(PersonModel person : allPersonsByLastName.get()) {
+			var medicalRecord = iMedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(person.getFirstName(), person.getLastName());
+			if (medicalRecord.isPresent()) {
+				List<String> medications = medicalRecord.get().getMedications();
+				List<String> allergies =  medicalRecord.get().getAllergies();
+				int age = Tools.getAge(medicalRecord.get().getBirthdate());
+
+				personsByLastName.add(new PersonsInfosAndMedical(person.getLastName(), person.getAddress(), age, person.getEmail(), medications, allergies));
+			}
+		}
+		
+		return new InfosPersonByLastName(personsByLastName);
 	}
 
 

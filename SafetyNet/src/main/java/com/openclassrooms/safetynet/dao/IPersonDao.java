@@ -11,4 +11,5 @@ public interface IPersonDao {
 	Optional<List<PersonModel>>  findPersonByCity(String city);
 	public void create(PersonModel personModel);
 	List<PersonModel> fecthAllPerson();
+	Optional<List<PersonModel>> findPersonsByLastName(String lastName);
 }

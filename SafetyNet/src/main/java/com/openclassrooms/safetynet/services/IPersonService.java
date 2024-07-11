@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.openclassrooms.safetynet.controller.dto.response.InfosChildByAdress;
 import com.openclassrooms.safetynet.controller.dto.response.InfosMailsByCity;
+import com.openclassrooms.safetynet.controller.dto.response.InfosPersonByLastName;
 import com.openclassrooms.safetynet.model.PersonModel;
 
 public interface IPersonService {
@@ -12,4 +13,6 @@ public interface IPersonService {
 	public InfosChildByAdress getChildUnderEighteen(String address);
 
 	public InfosMailsByCity getMailsByCity(String city);
+	
+	public InfosPersonByLastName getInfosPersonsByLastName(String lastName);
 	}

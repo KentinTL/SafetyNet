@@ -14,12 +14,11 @@ public class PersonDao implements IPersonDao{
 
 	@Autowired
 	private GeneriqueDataModelDao generiqueDataModelDao;
-	DataModel dataModel;
 
 	
 	@Override
 	public Optional<PersonModel> findByEmail(String email) {
-		dataModel = generiqueDataModelDao.fetchData();
+		DataModel dataModel = generiqueDataModelDao.fetchData();
 		return dataModel.getPersons().stream()
 				.filter(personModel -> personModel.getEmail().equals(email))
 				.findFirst();
@@ -27,21 +26,35 @@ public class PersonDao implements IPersonDao{
 
 	@Override
 	public Optional<List<PersonModel>> findByAddress(String address) {
-		dataModel = generiqueDataModelDao.fetchData();
+		DataModel dataModel = generiqueDataModelDao.fetchData();
 
-		return Optional.of(dataModel.getPersons().stream().filter(t -> t.getAddress().equals(address)).toList());
+		return Optional.of(dataModel.getPersons().stream()
+				.filter(t -> t.getAddress().equals(address))
+				.toList());
 	}
 	
 	@Override
 	public Optional<List<PersonModel>>  findPersonByCity(String city) {
-		dataModel = generiqueDataModelDao.fetchData();
+		DataModel dataModel = generiqueDataModelDao.fetchData();
+
 		return Optional.of(dataModel.getPersons().stream()
 				.filter(personModel -> personModel.getCity().equals(city))
 				.toList());
 	}
 	
 	@Override
+	public Optional<List<PersonModel>> findPersonsByLastName(String lastName){
+		DataModel dataModel = generiqueDataModelDao.fetchData();
+
+		return Optional.of(dataModel.getPersons().stream()
+				.filter(personModel -> personModel.getLastName().equals(lastName))
+				.toList());
+	}
+	
+	@Override
 	public void create(PersonModel personModel) {
+		DataModel dataModel = generiqueDataModelDao.fetchData();
+
 		dataModel = generiqueDataModelDao.fetchData();
 		dataModel.getPersons().add(personModel);
 		generiqueDataModelDao.updateData(dataModel);
@@ -49,6 +62,8 @@ public class PersonDao implements IPersonDao{
 
 	@Override
 	public List<PersonModel> fecthAllPerson() {
+		DataModel dataModel = generiqueDataModelDao.fetchData();
+
 		dataModel = generiqueDataModelDao.fetchData();
 		return dataModel.getPersons();
 	}
