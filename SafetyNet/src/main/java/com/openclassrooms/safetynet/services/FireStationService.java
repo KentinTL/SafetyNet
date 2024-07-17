@@ -2,6 +2,7 @@ package com.openclassrooms.safetynet.services;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -10,6 +11,9 @@ import org.springframework.stereotype.Service;
 
 import com.openclassrooms.safetynet.controller.dto.response.InfosPersonsByFireStation;
 import com.openclassrooms.safetynet.controller.dto.response.PersonPhoneNumber;
+import com.openclassrooms.safetynet.controller.dto.response.PersonsInfosAndMedical;
+import com.openclassrooms.safetynet.controller.dto.response.ResidentAndFireStationByAddress;
+import com.openclassrooms.safetynet.controller.dto.response.ResidentAndFireStationsByListOfFireSations;
 import com.openclassrooms.safetynet.dao.IFireStationDao;
 import com.openclassrooms.safetynet.dao.IMedicalRecordDao;
 import com.openclassrooms.safetynet.dao.IPersonDao;
@@ -89,6 +93,54 @@ public class FireStationService implements IFireStationService{
 		result.setPhoneNumberList(phoneNumbers);
 		return result;
 	}
-	
 
+	@Override
+	public List<ResidentAndFireStationsByListOfFireSations> getResidentAndFireStationsByListOfFireSations(List<Integer> fireStationNumbers) {
+	    List<ResidentAndFireStationsByListOfFireSations> resultList = new ArrayList<>();
+	    
+	    for (Integer fireStationNumber : fireStationNumbers) {
+	        List<FireStationModel> fireStationList = iFireStationDao.fetchFireStationsByStationNumber(fireStationNumber);
+
+	        for (FireStationModel fireStation : fireStationList) {
+	            String address = fireStation.getAddress();
+
+	            Optional<List<PersonModel>> optionalPersonsList = iPersonDao.findByAddress(address);
+
+	            if (optionalPersonsList.isPresent()) {
+	                List<PersonModel> allPersonsList = optionalPersonsList.get();
+	                List<PersonsInfosAndMedical> personsInfosList = new ArrayList<>();
+
+	                for (PersonModel person : allPersonsList) {
+	                    var medicalRecord = iMedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(person.getFirstName(), person.getLastName());
+
+	                    if (medicalRecord.isPresent()) {
+	                        List<String> medications = medicalRecord.get().getMedications();
+	                        List<String> allergies = medicalRecord.get().getAllergies();
+	                        int age = Tools.getAge(medicalRecord.get().getBirthdate());
+
+	                        PersonsInfosAndMedical personInfo = new PersonsInfosAndMedical(
+	                            person.getLastName(),
+	                            person.getPhone(),
+	                            address,
+	                            age,
+	                            null,
+	                            medications,
+	                            allergies
+	                        );
+
+	                        personsInfosList.add(personInfo);
+	                    }
+	                }
+	                ResidentAndFireStationsByListOfFireSations addressInfo = new ResidentAndFireStationsByListOfFireSations(
+	                    fireStationNumber,
+	                    address,
+	                    personsInfosList
+	                );
+	                resultList.add(addressInfo);
+	            }
+	        }
+	    }
+
+	    return resultList;
+	}
 }

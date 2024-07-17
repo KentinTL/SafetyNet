@@ -2,18 +2,24 @@ package com.openclassrooms.safetynet.controller.dto.response;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
+@JsonInclude(Include.NON_NULL)
 public class PersonsInfosAndMedical {
 	private String name;
 	private String address;
 	private int age;
+	private String phoneNumber;
 	private String mail;
 	private List<String> medications;
 	private List<String> allergies;
 	
-	public PersonsInfosAndMedical(String name, String address, int age, String mail, List<String> medications,
+	public PersonsInfosAndMedical(String name,String phoneNumber, String address, int age, String mail, List<String> medications,
 			List<String> allergies) {
 		super();
 		this.name = name;
+		this.phoneNumber = phoneNumber;
 		this.address = address;
 		this.age = age;
 		this.mail = mail;
@@ -23,6 +29,13 @@ public class PersonsInfosAndMedical {
 	
 	public PersonsInfosAndMedical() {
 		super();
+	}
+	
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
 	}
 	
 	public String getName() {

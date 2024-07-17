@@ -99,7 +99,7 @@ public class PersonService implements IPersonService{
 				List<String> allergies =  medicalRecord.get().getAllergies();
 				int age = Tools.getAge(medicalRecord.get().getBirthdate());
 
-				personsByLastName.add(new PersonsInfosAndMedical(person.getLastName(), person.getAddress(), age, person.getEmail(), medications, allergies));
+				personsByLastName.add(new PersonsInfosAndMedical(person.getLastName(), null, person.getAddress(), age, person.getEmail(), medications, allergies));
 			}
 		}
 		
