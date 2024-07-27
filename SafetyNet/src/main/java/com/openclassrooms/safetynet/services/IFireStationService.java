@@ -12,4 +12,7 @@ public interface IFireStationService {
 	public InfosPersonsByFireStation getPersonByFirestation(int stationNumber);
 	public PersonPhoneNumber getAllPhoneNumberByFireStationNumber(int stationNumber);
 	List<ResidentAndFireStationsByListOfFireSations> getResidentAndFireStationsByListOfFireSations(List<Integer>fireStationNumbers);
+	void add(FireStationModel fireStationModel);
+	void update(String address, FireStationModel fireStationModel);
+	void deleteFireStation(String address);
 }

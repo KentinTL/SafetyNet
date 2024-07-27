@@ -17,6 +17,7 @@ import com.openclassrooms.safetynet.controller.dto.response.ResidentAndFireStati
 import com.openclassrooms.safetynet.dao.IFireStationDao;
 import com.openclassrooms.safetynet.dao.IMedicalRecordDao;
 import com.openclassrooms.safetynet.dao.IPersonDao;
+import com.openclassrooms.safetynet.model.DataModel;
 import com.openclassrooms.safetynet.model.FireStationModel;
 import com.openclassrooms.safetynet.model.MedicalRecordModel;
 import com.openclassrooms.safetynet.model.PersonModel;
@@ -34,6 +35,37 @@ public class FireStationService implements IFireStationService{
 	@Autowired
 	private IMedicalRecordDao iMedicalRecordDao;
 
+	
+    @Override
+    public void add(FireStationModel fireStationModel) {
+        Optional<FireStationModel> stationFound = iFireStationDao.fetchFireStationByAddress(fireStationModel.getAddress());
+        if (stationFound.isPresent()) {
+            throw new RuntimeException("Fire station already exists for this address");
+        }
+        iFireStationDao.create(fireStationModel);
+    }
+
+    @Override
+    public void update(String address, FireStationModel fireStationModel) {
+        Optional<FireStationModel> stationFound = iFireStationDao.fetchFireStationByAddress(fireStationModel.getAddress());
+        if(stationFound.isEmpty()) {
+            throw new RuntimeException("Fire station doesn't exist yet");
+        }
+    	iFireStationDao.update(fireStationModel);
+    }
+    
+    @Override
+    public void deleteFireStation(String address) {
+    	var stationFound = iFireStationDao.fetchFireStationByAddress(address);
+    	if(stationFound.isEmpty()) {
+    		System.out.println(address);
+    		throw new RuntimeException("Station does not exist at this address");
+    	}
+		FireStationModel fireStationModel = new FireStationModel();
+		fireStationModel.setAddress(address);
+		iFireStationDao.delete(fireStationModel);
+    }
+	
 	@Override
 	public List<FireStationModel> consultAllfirestations() {
 		return iFireStationDao.fetchAllFireStation();

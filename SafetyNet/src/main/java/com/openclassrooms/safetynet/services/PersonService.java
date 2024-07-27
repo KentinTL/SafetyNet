@@ -30,7 +30,10 @@ public class PersonService implements IPersonService{
 
     @Override
     public void add(PersonModel personModel) {
-    	//TODO Tester l'existence d'une personne avant de la créer via son nom et prénom
+    	var personExist = iPersonDao.findByFirstNameAndLastName(personModel.getFirstName(), personModel.getLastName());
+    	if(!personExist.isEmpty()) {
+    		throw new RuntimeException("This person already exist into database");
+    	}
         iPersonDao.create(personModel);
     }
 

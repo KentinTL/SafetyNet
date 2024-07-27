@@ -36,4 +36,30 @@ public class FireStationDao implements IFireStationDao{
 				.findFirst();
 	}
 	
+    @Override
+    public void create(FireStationModel fireStationModel) {
+        DataModel dataModel = generiqueDataModelDao.fetchData();
+        dataModel.getFirestations().add(fireStationModel);
+        generiqueDataModelDao.updateData(dataModel);
+    }
+
+    @Override
+    public void update(FireStationModel fireStationModel) {
+        DataModel dataModel = generiqueDataModelDao.fetchData();
+        List<FireStationModel> stations = dataModel.getFirestations();
+        for (int i = 0; i < stations.size(); i++) {
+            if (stations.get(i).getAddress().equals(fireStationModel.getAddress())) {
+                stations.set(i, fireStationModel);
+                generiqueDataModelDao.updateData(dataModel);
+            }
+        }
+    }
+
+    @Override
+    public void delete(FireStationModel fireStationModel) {
+        DataModel dataModel = generiqueDataModelDao.fetchData();
+        dataModel.getFirestations().removeIf(fireStation -> fireStation.getAddress().equals(fireStationModel.getAddress()) ||
+        		fireStation.getStation() == fireStationModel.getStation());
+        generiqueDataModelDao.updateData(dataModel);
+    }
 }

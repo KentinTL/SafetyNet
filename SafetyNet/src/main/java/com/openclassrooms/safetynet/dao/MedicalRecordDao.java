@@ -28,5 +28,28 @@ public class MedicalRecordDao implements IMedicalRecordDao {
 				.filter(medicalRecord -> medicalRecord.getFirstName().equals(firstName)&& medicalRecord.getLastName().equals(lastName))
 				.findFirst();
 	}
-
+	
+	public void create(MedicalRecordModel medicalRecord) {
+		dataModel = generiqueDataModelDao.fetchData();
+		dataModel.getMedicalrecords().add(medicalRecord);
+		generiqueDataModelDao.updateData(dataModel);
+	}
+	
+	public void update(MedicalRecordModel medicalRecord) {
+		List<MedicalRecordModel> medicalRecords = dataModel.getMedicalrecords();
+		for(int i = 0; i < medicalRecords.size(); i++) {
+            if (medicalRecords.get(i).getFirstName().equals(medicalRecord.getFirstName()) && medicalRecords.get(i).getLastName().equals(medicalRecord.getLastName())) {
+            	medicalRecords.set(i, medicalRecord);
+                generiqueDataModelDao.updateData(dataModel);
+                return;
+            }
+		}
+	}
+	
+    @Override
+    public void delete(MedicalRecordModel medicalRecord) {
+        DataModel dataModel = generiqueDataModelDao.fetchData();
+        dataModel.getMedicalrecords().removeIf(p -> p.getFirstName().equals(medicalRecord.getFirstName()) && p.getLastName().equals(medicalRecord.getLastName()));
+        generiqueDataModelDao.updateData(dataModel);
+    }
 }

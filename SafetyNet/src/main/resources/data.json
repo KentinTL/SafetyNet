@@ -208,13 +208,13 @@
 			"email": "gramps@email.com"
 		},
 		{
-			"firstName": "Nathalie",
+			"firstName": "Josh",
 			"lastName": "Doe",
 			"address": "123 Main St",
 			"city": "SuperTown",
-			"zip": "77600",
+			"zip": "12345",
 			"phone": "555-555-5555",
-			"email": "supernath.doe@example.com"
+			"email": "nathalie.doe@example.com"
 		}
 	],
 	"firestations": [

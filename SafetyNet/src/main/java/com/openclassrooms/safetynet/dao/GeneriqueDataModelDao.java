@@ -2,10 +2,6 @@ package com.openclassrooms.safetynet.dao;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Repository;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
