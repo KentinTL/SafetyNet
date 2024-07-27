@@ -14,7 +14,6 @@ public class PersonDao implements IPersonDao{
 
 	@Autowired
 	private GeneriqueDataModelDao generiqueDataModelDao;
-
 	
 	@Override
 	public Optional<PersonModel> findByEmail(String email) {
@@ -51,22 +50,48 @@ public class PersonDao implements IPersonDao{
 				.toList());
 	}
 	
-	@Override
-	public void create(PersonModel personModel) {
-		DataModel dataModel = generiqueDataModelDao.fetchData();
-
-		dataModel = generiqueDataModelDao.fetchData();
-		dataModel.getPersons().add(personModel);
-		generiqueDataModelDao.updateData(dataModel);
-	}
 
 	@Override
 	public List<PersonModel> fecthAllPerson() {
 		DataModel dataModel = generiqueDataModelDao.fetchData();
-
 		dataModel = generiqueDataModelDao.fetchData();
 		return dataModel.getPersons();
 	}
 
+	@Override
+	public void create(PersonModel personModel) {
+		DataModel dataModel = generiqueDataModelDao.fetchData();
+		dataModel.getPersons().add(personModel);
+		generiqueDataModelDao.updateData(dataModel);
+	}
+
+	
+    @Override
+    public void update(PersonModel personModel) {
+        DataModel dataModel = generiqueDataModelDao.fetchData();
+        List<PersonModel> persons = dataModel.getPersons();
+        for (int i = 0; i < persons.size(); i++) {
+            if (persons.get(i).getFirstName().equals(personModel.getFirstName()) && persons.get(i).getLastName().equals(personModel.getLastName())) {
+                persons.set(i, personModel);
+                generiqueDataModelDao.updateData(dataModel);
+                return;
+            }
+        }
+    }
+
+    @Override
+    public void delete(PersonModel personModel) {
+        DataModel dataModel = generiqueDataModelDao.fetchData();
+        dataModel.getPersons().removeIf(p -> p.getFirstName().equals(personModel.getFirstName()) && p.getLastName().equals(personModel.getLastName()));
+        generiqueDataModelDao.updateData(dataModel);
+    }
+
+    @Override
+    public Optional<PersonModel> findByFirstNameAndLastName(String firstName, String lastName) {
+        DataModel dataModel = generiqueDataModelDao.fetchData();
+        return dataModel.getPersons().stream()
+                .filter(personModel -> personModel.getFirstName().equals(firstName) && personModel.getLastName().equals(lastName))
+                .findFirst();
+    }
 
 }

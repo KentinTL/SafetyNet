@@ -14,7 +14,6 @@ import com.openclassrooms.safetynet.controller.dto.response.MinimalPersonModel;
 import com.openclassrooms.safetynet.controller.dto.response.PersonMail;
 import com.openclassrooms.safetynet.controller.dto.response.PersonModelWithAge;
 import com.openclassrooms.safetynet.controller.dto.response.PersonsInfosAndMedical;
-import com.openclassrooms.safetynet.controller.dto.response.ResidentByAddress;
 import com.openclassrooms.safetynet.dao.IMedicalRecordDao;
 import com.openclassrooms.safetynet.dao.IPersonDao;
 import com.openclassrooms.safetynet.model.PersonModel;
@@ -28,15 +27,36 @@ public class PersonService implements IPersonService{
 	
 	@Autowired
 	private IMedicalRecordDao iMedicalRecordDao;
-		
-	@Override
-	public void add(PersonModel personModel) {
-		Optional<PersonModel> personFound =  iPersonDao.findByEmail(personModel.getEmail());
-		if(personFound.isPresent()) {
-			throw new RuntimeException("Person already exist");
-		}
-		iPersonDao.create(personModel);
-	}
+
+    @Override
+    public void add(PersonModel personModel) {
+    	//TODO Tester l'existence d'une personne avant de la créer via son nom et prénom
+        iPersonDao.create(personModel);
+    }
+
+    @Override
+    public void update(String firstName, String lastName, PersonModel personModel) {
+    	var personExist = iPersonDao.findByFirstNameAndLastName(firstName, lastName);
+    	
+    	if(personExist.isEmpty()) {
+    		throw new RuntimeException("No persons founded");
+    	}
+    	
+        iPersonDao.update(personModel);
+    }
+
+    @Override
+    public void delete(String firstName, String lastName) {
+    	var personExist = iPersonDao.findByFirstNameAndLastName(firstName, lastName);
+    	if(personExist.isEmpty()) {
+    		throw new RuntimeException("Person does not exist");
+    	}
+        PersonModel personModel = new PersonModel();
+        personModel.setFirstName(firstName);
+        personModel.setLastName(lastName);
+        iPersonDao.delete(personModel);
+    }
+
 	
 	@Override
 	public List<PersonModel> consultAllPersons() {
@@ -105,6 +125,4 @@ public class PersonService implements IPersonService{
 		
 		return new InfosPersonByLastName(personsByLastName);
 	}
-
-
 }

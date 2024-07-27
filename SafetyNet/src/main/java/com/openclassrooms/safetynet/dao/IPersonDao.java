@@ -12,4 +12,7 @@ public interface IPersonDao {
 	public void create(PersonModel personModel);
 	List<PersonModel> fecthAllPerson();
 	Optional<List<PersonModel>> findPersonsByLastName(String lastName);
+	void update(PersonModel personModel);
+	void delete(PersonModel personModel);
+	Optional<PersonModel> findByFirstNameAndLastName(String firstName, String lastName);
 }

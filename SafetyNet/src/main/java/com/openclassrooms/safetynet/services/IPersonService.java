@@ -15,4 +15,6 @@ public interface IPersonService {
 	public InfosMailsByCity getMailsByCity(String city);
 	
 	public InfosPersonByLastName getInfosPersonsByLastName(String lastName);
+	void update(String firstName, String lastName,PersonModel personModel);
+	void delete(String firstName, String lastName);
 	}

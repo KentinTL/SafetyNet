@@ -18,6 +18,7 @@ import com.openclassrooms.safetynet.dao.IFireStationDao;
 import com.openclassrooms.safetynet.dao.IMedicalRecordDao;
 import com.openclassrooms.safetynet.dao.IPersonDao;
 import com.openclassrooms.safetynet.model.FireStationModel;
+import com.openclassrooms.safetynet.model.MedicalRecordModel;
 import com.openclassrooms.safetynet.model.PersonModel;
 import com.openclassrooms.safetynet.utilities.Tools;
 
@@ -98,6 +99,21 @@ public class FireStationService implements IFireStationService{
 	public List<ResidentAndFireStationsByListOfFireSations> getResidentAndFireStationsByListOfFireSations(List<Integer> fireStationNumbers) {
 	    List<ResidentAndFireStationsByListOfFireSations> resultList = new ArrayList<>();
 	    
+	    
+		/*
+		 * var personsByAddress = fireStationNumbers.stream() .map(number ->
+		 * iFireStationDao.fetchFireStationsByStationNumber(number))
+		 * .flatMap(listFireStation -> listFireStation.stream()) .map(fireStationModel
+		 * -> iPersonDao.findByAddress(fireStationModel.getAddress())) .toList();
+		 * 
+		 * var personsInfosMedical = personsByAddress.stream() .map(optionalPersonModel
+		 * -> optionalPersonModel.get()) .flatMap(listPersonModel ->
+		 * listPersonModel.stream()) .map(personModel -> buildPersonsInfo(personModel))
+		 * .toList();
+		 */
+	    
+	    
+	    
 	    for (Integer fireStationNumber : fireStationNumbers) {
 	        List<FireStationModel> fireStationList = iFireStationDao.fetchFireStationsByStationNumber(fireStationNumber);
 
@@ -143,4 +159,19 @@ public class FireStationService implements IFireStationService{
 
 	    return resultList;
 	}
+	
+	/*
+	 * private PersonsInfosAndMedical buildPersonsInfo(PersonModel person) { var
+	 * medicalRecord =
+	 * iMedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(person.
+	 * getFirstName(), person.getLastName());
+	 * 
+	 * if (medicalRecord.isPresent()) { List<String> medications =
+	 * medicalRecord.get().getMedications(); List<String> allergies =
+	 * medicalRecord.get().getAllergies(); int age =
+	 * Tools.getAge(medicalRecord.get().getBirthdate());
+	 * 
+	 * return new PersonsInfosAndMedical( person.getLastName(), person.getPhone(),
+	 * person.getAddress(), age, null, medications, allergies ); } return null; }
+	 */
 }
