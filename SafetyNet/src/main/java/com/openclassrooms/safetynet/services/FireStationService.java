@@ -12,14 +12,13 @@ import org.springframework.stereotype.Service;
 import com.openclassrooms.safetynet.controller.dto.response.InfosPersonsByFireStation;
 import com.openclassrooms.safetynet.controller.dto.response.PersonPhoneNumber;
 import com.openclassrooms.safetynet.controller.dto.response.PersonsInfosAndMedical;
-import com.openclassrooms.safetynet.controller.dto.response.ResidentAndFireStationByAddress;
 import com.openclassrooms.safetynet.controller.dto.response.ResidentAndFireStationsByListOfFireSations;
 import com.openclassrooms.safetynet.dao.IFireStationDao;
 import com.openclassrooms.safetynet.dao.IMedicalRecordDao;
 import com.openclassrooms.safetynet.dao.IPersonDao;
-import com.openclassrooms.safetynet.model.DataModel;
+import com.openclassrooms.safetynet.exceptions.EntityAlreadyExistException;
+import com.openclassrooms.safetynet.exceptions.EntityNotFoundException;
 import com.openclassrooms.safetynet.model.FireStationModel;
-import com.openclassrooms.safetynet.model.MedicalRecordModel;
 import com.openclassrooms.safetynet.model.PersonModel;
 import com.openclassrooms.safetynet.utilities.Tools;
 
@@ -40,7 +39,7 @@ public class FireStationService implements IFireStationService{
     public void add(FireStationModel fireStationModel) {
         Optional<FireStationModel> stationFound = iFireStationDao.fetchFireStationByAddress(fireStationModel.getAddress());
         if (stationFound.isPresent()) {
-            throw new RuntimeException("Fire station already exists for this address");
+    		throw new EntityAlreadyExistException("This fire station already exist into database");
         }
         iFireStationDao.create(fireStationModel);
     }
@@ -49,7 +48,7 @@ public class FireStationService implements IFireStationService{
     public void update(String address, FireStationModel fireStationModel) {
         Optional<FireStationModel> stationFound = iFireStationDao.fetchFireStationByAddress(fireStationModel.getAddress());
         if(stationFound.isEmpty()) {
-            throw new RuntimeException("Fire station doesn't exist yet");
+    		throw new EntityNotFoundException("No fire station founded");
         }
     	iFireStationDao.update(fireStationModel);
     }
@@ -58,8 +57,7 @@ public class FireStationService implements IFireStationService{
     public void deleteFireStation(String address) {
     	var stationFound = iFireStationDao.fetchFireStationByAddress(address);
     	if(stationFound.isEmpty()) {
-    		System.out.println(address);
-    		throw new RuntimeException("Station does not exist at this address");
+    		throw new EntityNotFoundException("No fire station founded");
     	}
 		FireStationModel fireStationModel = new FireStationModel();
 		fireStationModel.setAddress(address);

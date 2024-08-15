@@ -215,6 +215,15 @@
 			"zip": "12345",
 			"phone": "555-555-5555",
 			"email": "nathalie.doe@example.com"
+		},
+		{
+			"firstName": "Nathalie",
+			"lastName": "Doe",
+			"address": "123 Main St",
+			"city": "SuperTown",
+			"zip": "77600",
+			"phone": "555-555-5555",
+			"email": "supernath.doe@example.com"
 		}
 	],
 	"firestations": [
@@ -481,6 +490,17 @@
 				"tradoxidine:400mg"
 			],
 			"allergies": []
+		},
+		{
+			"firstName": "Nathalie",
+			"lastName": "Doe",
+			"birthdate": "08/06/1985",
+			"medications": [
+				"paracétamol:400mg"
+			],
+			"allergies": [
+				"nuts"
+			]
 		}
 	]
 }

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,11 +19,16 @@ import com.openclassrooms.safetynet.controller.dto.response.PersonModelWithAge;
 import com.openclassrooms.safetynet.controller.dto.response.PersonsInfosAndMedical;
 import com.openclassrooms.safetynet.dao.IMedicalRecordDao;
 import com.openclassrooms.safetynet.dao.IPersonDao;
+import com.openclassrooms.safetynet.exceptions.EntityAlreadyExistException;
+import com.openclassrooms.safetynet.exceptions.EntityNotFoundException;
 import com.openclassrooms.safetynet.model.PersonModel;
 import com.openclassrooms.safetynet.utilities.Tools;
 
+
 @Service
 public class PersonService implements IPersonService{
+	
+    private static final Logger logger = LoggerFactory.getLogger(PersonService.class);
 
 	@Autowired
 	private IPersonDao iPersonDao;
@@ -30,11 +38,13 @@ public class PersonService implements IPersonService{
 
     @Override
     public void add(PersonModel personModel) {
+    	logger.debug("Started method to add new person");
     	var personExist = iPersonDao.findByFirstNameAndLastName(personModel.getFirstName(), personModel.getLastName());
-    	if(!personExist.isEmpty()) {
-    		throw new RuntimeException("This person already exist into database");
+    	if(personExist.isPresent()) {
+    		throw new EntityAlreadyExistException("This person already exist into database");
     	}
         iPersonDao.create(personModel);
+        logger.info("Added new person successfully : ", personModel);
     }
 
     @Override
@@ -42,7 +52,7 @@ public class PersonService implements IPersonService{
     	var personExist = iPersonDao.findByFirstNameAndLastName(firstName, lastName);
     	
     	if(personExist.isEmpty()) {
-    		throw new RuntimeException("No persons founded");
+    		throw new EntityNotFoundException("No persons founded");
     	}
     	
         iPersonDao.update(personModel);
@@ -52,7 +62,7 @@ public class PersonService implements IPersonService{
     public void delete(String firstName, String lastName) {
     	var personExist = iPersonDao.findByFirstNameAndLastName(firstName, lastName);
     	if(personExist.isEmpty()) {
-    		throw new RuntimeException("Person does not exist");
+    		throw new EntityNotFoundException("Person does not exist");
     	}
         PersonModel personModel = new PersonModel();
         personModel.setFirstName(firstName);

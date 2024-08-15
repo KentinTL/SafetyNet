@@ -3,6 +3,8 @@ package com.openclassrooms.safetynet.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -44,37 +46,23 @@ public class FireStationController {
     }
 	
 	@PostMapping("/firestation")
-	public String addFirstation(@RequestBody FireStationModel fireStationModel) {
-		try {
-			ifirestationservice.add(fireStationModel);
-			return "Fire Station successfully created";
-		} catch (Exception e){
-			return e.getMessage();
-		}
-		
+	public ResponseEntity<HttpStatus> addFirstation(@RequestBody FireStationModel fireStationModel) {
+		ifirestationservice.add(fireStationModel);
+        return ResponseEntity.created(null).build();
 	}
 	
 	@PutMapping("/firestation/{address}")
-	public String addFirstation(@PathVariable String address, @RequestBody FireStationModel fireStationModel) {
-		try {
-			ifirestationservice.update(address, fireStationModel);
-			return "Fire Station successfully updated";
-		} catch (Exception e){
-			return e.getMessage();
-		}
+	public ResponseEntity<HttpStatus> addFirstation(@PathVariable String address, @RequestBody FireStationModel fireStationModel) {
+		ifirestationservice.update(address, fireStationModel);
+        return ResponseEntity.ok().build();
 	}
 	
 	@DeleteMapping("/firestation/{address}")
-	public String deleteFireStationByAddress(@PathVariable String address) {
-		try {
-			FireStationModel fireStationModel = new FireStationModel();
-			fireStationModel.setAddress(address);
-			ifirestationservice.deleteFireStation(address);
-			return "Fire Station successfully deleted";
-		} catch (Exception e){
-			return e.getMessage();
-		}
-		
+	public ResponseEntity<HttpStatus> deleteFireStationByAddress(@PathVariable String address) {
+		FireStationModel fireStationModel = new FireStationModel();
+		fireStationModel.setAddress(address);
+		ifirestationservice.deleteFireStation(address);
+		return ResponseEntity.ok().build();
 	}
 	
 	

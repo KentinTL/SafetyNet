@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 
 import com.openclassrooms.safetynet.dao.IMedicalRecordDao;
 import com.openclassrooms.safetynet.dao.IPersonDao;
+import com.openclassrooms.safetynet.exceptions.EntityAlreadyExistException;
+import com.openclassrooms.safetynet.exceptions.EntityNotFoundException;
 import com.openclassrooms.safetynet.model.MedicalRecordModel;
 
 @Service
@@ -25,7 +27,7 @@ public class MedicalRecordService implements IMedicalRecordService{
     	var personExist = iPersonDao.findByFirstNameAndLastName(medicalRecord.getFirstName(), medicalRecord.getLastName());
     	
     	if(personExist.isEmpty()) {
-    		throw new RuntimeException("You can't create a MedicalRecord for a person who doesn't exist");
+    		throw new EntityAlreadyExistException("You can't create a MedicalRecord for a person who doesn't exist");
     	}
     	
     	imedicalrecorddao.create(medicalRecord);
@@ -36,7 +38,7 @@ public class MedicalRecordService implements IMedicalRecordService{
     	var medicalRecordForPerson = imedicalrecorddao.fetchMedicalRecordByFirstNameAndLastName(firstName, lastName);
     	
     	if(medicalRecordForPerson.isEmpty()) {
-    		throw new RuntimeException("No Medical Medical founded");
+    		throw new EntityNotFoundException("No Medical Medical founded");
     	}
     	
     	imedicalrecorddao.update(medicalRecord);
@@ -46,7 +48,7 @@ public class MedicalRecordService implements IMedicalRecordService{
     public void delete(String firstName, String lastName) {
     	var medicalRecordForPerson = imedicalrecorddao.fetchMedicalRecordByFirstNameAndLastName(firstName, lastName);
     	if(medicalRecordForPerson.isEmpty()) {
-    		throw new RuntimeException("Medical Record does not exist");
+    		throw new EntityNotFoundException("Medical Record does not exist");
     	}
         MedicalRecordModel medicalRecord = new MedicalRecordModel();
         medicalRecord.setFirstName(firstName);

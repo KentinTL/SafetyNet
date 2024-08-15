@@ -3,6 +3,8 @@ package com.openclassrooms.safetynet.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,32 +28,20 @@ public class MedicalRecordController {
 	}
 	
 	@PostMapping("/medicalRecord")
-    public String createNewMedicalRecord(@RequestBody MedicalRecordModel medicalRecord) {
-        try {
-            imedicalservice.add(medicalRecord);
-            return "Medical Record successfully created";
-        } catch (Exception e) {
-            return e.getMessage();
-        }
+    public ResponseEntity<HttpStatus> createNewMedicalRecord(@RequestBody MedicalRecordModel medicalRecord) {
+        imedicalservice.add(medicalRecord);
+        return ResponseEntity.created(null).build();
 	}
 	
     @PutMapping("/medicalRecord/{firstName}/{lastName}")
-    public String updateMedicalRecord(@PathVariable String firstName, @PathVariable String lastName, @RequestBody MedicalRecordModel medicalRecord) {
-        try {
-        	imedicalservice.update(firstName, lastName, medicalRecord);
-            return "Medical Record successfully updated";
-        } catch (Exception e) {
-            return e.getMessage();
-        }
+    public ResponseEntity<HttpStatus> updateMedicalRecord(@PathVariable String firstName, @PathVariable String lastName, @RequestBody MedicalRecordModel medicalRecord) {
+        imedicalservice.update(firstName, lastName, medicalRecord);
+        return ResponseEntity.ok().build();
     }
     
     @DeleteMapping("/medicalRecord/{firstName}/{lastName}")
-    public String deleteMedicalRecord(@PathVariable String firstName, @PathVariable String lastName) {
-        try {
+    public ResponseEntity<HttpStatus> deleteMedicalRecord(@PathVariable String firstName, @PathVariable String lastName) {
         	imedicalservice.delete(firstName, lastName);
-            return "Medical Record successfully deleted";
-        } catch (Exception e) {
-            return e.getMessage();
-        }
+            return ResponseEntity.ok().build();
     }
 }

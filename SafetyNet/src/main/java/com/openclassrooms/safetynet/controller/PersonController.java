@@ -3,6 +3,8 @@ package com.openclassrooms.safetynet.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.openclassrooms.safetynet.controller.dto.response.InfosChildByAdress;
@@ -56,36 +58,25 @@ public class PersonController {
 	}
 	
     @PostMapping("/person")
-    public String addPerson(@RequestBody PersonModel personModel) {
-        try {
+    public ResponseEntity<HttpStatus> addPerson(@RequestBody PersonModel personModel) {
             ipersonservice.add(personModel);
-            return "Person added successfully";
-        } catch (Exception e) {
-            return e.getMessage();
-        }
+            return ResponseEntity.created(null).build();
+
     }
 
     @PutMapping("/person/{firstName}/{lastName}")
-    public String updatePerson(@PathVariable String firstName, @PathVariable String lastName, @RequestBody PersonModel personModel) {
-        try {
+    public ResponseEntity<HttpStatus> updatePerson(@PathVariable String firstName, @PathVariable String lastName, @RequestBody PersonModel personModel) {
             ipersonservice.update(firstName, lastName, personModel);
-            return "Person updated successfully";
-        } catch (Exception e) {
-            return e.getMessage();
-        }
+            return ResponseEntity.ok().build();
     }
 
     @DeleteMapping("/person/{firstName}/{lastName}")
-    public String deletePerson(@PathVariable String firstName, @PathVariable String lastName) {
-        try {
+    public ResponseEntity<HttpStatus> deletePerson(@PathVariable String firstName, @PathVariable String lastName) {
             PersonModel personModel = new PersonModel();
             personModel.setFirstName(firstName);
             personModel.setLastName(lastName);
             ipersonservice.delete(firstName, lastName);
-            return "Person deleted successfully";
-        } catch (Exception e) {
-            return e.getMessage();
-        }
+            return ResponseEntity.ok().build();
     }
 	
 }
