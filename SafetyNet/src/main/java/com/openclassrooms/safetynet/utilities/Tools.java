@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
+import java.util.List;
 
 import com.openclassrooms.safetynet.controller.dto.response.PersonInfos;
 import com.openclassrooms.safetynet.model.PersonModel;
@@ -45,5 +46,11 @@ public class Tools {
 		} else {
 			return false;
 		}
+	}
+
+	public static Object createMedicalRecord(String firstName, String lastName, String string, List<Object> of,
+			List<Object> of2) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

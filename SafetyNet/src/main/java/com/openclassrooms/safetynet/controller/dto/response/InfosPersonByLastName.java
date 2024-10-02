@@ -3,19 +3,23 @@ package com.openclassrooms.safetynet.controller.dto.response;
 import java.util.List;
 
 public class InfosPersonByLastName {
-	private List<PersonsInfosAndMedical> piam;
+	private List<PersonsInfosAndMedical> personsInfosAndMedical;
 
 	public InfosPersonByLastName(List<PersonsInfosAndMedical> piam) {
 		super();
-		this.piam = piam;
+		this.personsInfosAndMedical = piam;
 	}
 
-	public List<PersonsInfosAndMedical> getPiam() {
-		return piam;
+	public InfosPersonByLastName() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public List<PersonsInfosAndMedical> getPersonsInfosAndMedical() {
+		return personsInfosAndMedical;
 	}
 
 	public void setPiam(List<PersonsInfosAndMedical> piam) {
-		this.piam = piam;
+		this.personsInfosAndMedical = piam;
 	}
 	
 }

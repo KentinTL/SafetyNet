@@ -24,30 +24,30 @@ public class PersonDao implements IPersonDao{
 	}
 
 	@Override
-	public Optional<List<PersonModel>> findByAddress(String address) {
+	public List<PersonModel> findByAddress(String address) {
 		DataModel dataModel = generiqueDataModelDao.fetchData();
 
-		return Optional.of(dataModel.getPersons().stream()
+		return dataModel.getPersons().stream()
 				.filter(t -> t.getAddress().equals(address))
-				.toList());
+				.toList();
 	}
 	
 	@Override
-	public Optional<List<PersonModel>>  findPersonByCity(String city) {
+	public List<PersonModel> findPersonByCity(String city) {
 		DataModel dataModel = generiqueDataModelDao.fetchData();
 
-		return Optional.of(dataModel.getPersons().stream()
+		return dataModel.getPersons().stream()
 				.filter(personModel -> personModel.getCity().equals(city))
-				.toList());
+				.toList();
 	}
 	
 	@Override
-	public Optional<List<PersonModel>> findPersonsByLastName(String lastName){
+	public List<PersonModel> findPersonsByLastName(String lastName){
 		DataModel dataModel = generiqueDataModelDao.fetchData();
 
-		return Optional.of(dataModel.getPersons().stream()
+		return dataModel.getPersons().stream()
 				.filter(personModel -> personModel.getLastName().equals(lastName))
-				.toList());
+				.toList();
 	}
 	
 

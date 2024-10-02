@@ -10,6 +10,10 @@ public class InfosMailsByCity {
 		this.mails = mails;
 	}
 
+	public InfosMailsByCity() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public List<PersonMail> getMails() {
 		return mails;
 	}

@@ -13,6 +13,9 @@ public class ResidentAndFireStationByAddress {
 		this.residentByAddress = residentByAddress;
 		this.fireStationNumber = fireStationNumber;
 	}
+	public ResidentAndFireStationByAddress() {
+		// TODO Auto-generated constructor stub
+	}
 	private List<ResidentByAddress> residentByAddress;
 	private int fireStationNumber;
 	

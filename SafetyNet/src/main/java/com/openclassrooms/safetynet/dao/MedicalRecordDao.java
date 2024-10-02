@@ -1,5 +1,6 @@
 package com.openclassrooms.safetynet.dao;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -36,16 +37,24 @@ public class MedicalRecordDao implements IMedicalRecordDao {
 	}
 	
 	public void update(MedicalRecordModel medicalRecord) {
-		List<MedicalRecordModel> medicalRecords = dataModel.getMedicalrecords();
-		for(int i = 0; i < medicalRecords.size(); i++) {
-            if (medicalRecords.get(i).getFirstName().equals(medicalRecord.getFirstName()) && medicalRecords.get(i).getLastName().equals(medicalRecord.getLastName())) {
-            	medicalRecords.set(i, medicalRecord);
-                generiqueDataModelDao.updateData(dataModel);
-                return;
-            }
-		}
+	    dataModel = generiqueDataModelDao.fetchData();
+	    
+	    List<MedicalRecordModel> medicalRecords = new ArrayList<>(dataModel.getMedicalrecords());
+	    
+	    for (int i = 0; i < medicalRecords.size(); i++) {
+	        if (medicalRecords.get(i).getFirstName().equals(medicalRecord.getFirstName()) &&
+	            medicalRecords.get(i).getLastName().equals(medicalRecord.getLastName())) {
+	            
+	            medicalRecords.set(i, medicalRecord);
+	            
+	            dataModel.setMedicalrecords(medicalRecords);
+	            
+	            generiqueDataModelDao.updateData(dataModel);
+	            return; 
+	        }
+	    }
 	}
-	
+
     @Override
     public void delete(MedicalRecordModel medicalRecord) {
         DataModel dataModel = generiqueDataModelDao.fetchData();

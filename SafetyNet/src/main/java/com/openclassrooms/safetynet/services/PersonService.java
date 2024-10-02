@@ -2,10 +2,6 @@ package com.openclassrooms.safetynet.services;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
-
-import org.slf4j.LoggerFactory;
-import org.slf4j.Logger;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -28,8 +24,6 @@ import com.openclassrooms.safetynet.utilities.Tools;
 @Service
 public class PersonService implements IPersonService{
 	
-    private static final Logger logger = LoggerFactory.getLogger(PersonService.class);
-
 	@Autowired
 	private IPersonDao iPersonDao;
 	
@@ -38,13 +32,11 @@ public class PersonService implements IPersonService{
 
     @Override
     public void add(PersonModel personModel) {
-    	logger.debug("Started method to add new person");
     	var personExist = iPersonDao.findByFirstNameAndLastName(personModel.getFirstName(), personModel.getLastName());
     	if(personExist.isPresent()) {
     		throw new EntityAlreadyExistException("This person already exist into database");
     	}
         iPersonDao.create(personModel);
-        logger.info("Added new person successfully : ", personModel);
     }
 
     @Override
@@ -79,12 +71,12 @@ public class PersonService implements IPersonService{
 	@Override
 	public InfosChildByAdress getChildUnderEighteen(String address) {
 		
-		Optional<List<PersonModel>> allPersonsList = iPersonDao.findByAddress(address);
+		List<PersonModel> allPersonsList = iPersonDao.findByAddress(address);
 		
 		List<PersonModelWithAge> childList = new ArrayList<PersonModelWithAge>();
 		List<MinimalPersonModel> adultList = new ArrayList<MinimalPersonModel>();
 		
-		for (PersonModel person: allPersonsList.get()) {
+		for (PersonModel person: allPersonsList) {
 			var medicalRecord = iMedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(person.getFirstName(), person.getLastName());
 			if(medicalRecord.isPresent()) {
 			
@@ -105,16 +97,9 @@ public class PersonService implements IPersonService{
 	@Override
 	public InfosMailsByCity getMailsByCity(String city) {
 		
-		Optional<List<PersonModel>> allPersonByCity = iPersonDao.findPersonByCity(city);
+		List<PersonModel> allPersonByCity = iPersonDao.findPersonByCity(city);
 		
-		List<PersonMail> personMails = new ArrayList<>();
-		
-		
-		if(allPersonByCity.isPresent()) {
-			for(PersonModel person: allPersonByCity.get()) {
-				personMails.add(new PersonMail(person.getEmail()));
-			}
-		}
+		List<PersonMail> personMails = allPersonByCity.stream().map(person -> new PersonMail(person.getEmail())).toList();
 		
 		return new InfosMailsByCity(personMails);
 	}
@@ -123,9 +108,9 @@ public class PersonService implements IPersonService{
 	public InfosPersonByLastName getInfosPersonsByLastName(String lastName) {
 		List<PersonsInfosAndMedical> personsByLastName = new ArrayList<PersonsInfosAndMedical>();
 		
-		Optional<List<PersonModel>> allPersonsByLastName = iPersonDao.findPersonsByLastName(lastName);
+		List<PersonModel> allPersonsByLastName = iPersonDao.findPersonsByLastName(lastName);
 		
-		for(PersonModel person : allPersonsByLastName.get()) {
+		for(PersonModel person : allPersonsByLastName) {
 			var medicalRecord = iMedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(person.getFirstName(), person.getLastName());
 			if (medicalRecord.isPresent()) {
 				List<String> medications = medicalRecord.get().getMedications();

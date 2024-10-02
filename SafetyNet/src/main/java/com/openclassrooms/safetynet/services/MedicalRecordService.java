@@ -16,11 +16,11 @@ public class MedicalRecordService implements IMedicalRecordService{
 	@Autowired
 	private IPersonDao iPersonDao;
 	@Autowired
-	private IMedicalRecordDao imedicalrecorddao;
+	private IMedicalRecordDao iMedicalRecordDao;
 	
 	@Override
 	public List<MedicalRecordModel> consultAllMedicalRecord() {
-		return imedicalrecorddao.fetchAllMedicalRecord();	}
+		return iMedicalRecordDao.fetchAllMedicalRecord();	}
 		
 	@Override
 	public void add(MedicalRecordModel medicalRecord) {
@@ -30,29 +30,29 @@ public class MedicalRecordService implements IMedicalRecordService{
     		throw new EntityAlreadyExistException("You can't create a MedicalRecord for a person who doesn't exist");
     	}
     	
-    	imedicalrecorddao.create(medicalRecord);
+    	iMedicalRecordDao.create(medicalRecord);
 	}
 	
     @Override
     public void update(String firstName, String lastName, MedicalRecordModel medicalRecord) {
-    	var medicalRecordForPerson = imedicalrecorddao.fetchMedicalRecordByFirstNameAndLastName(firstName, lastName);
+    	var medicalRecordForPerson = iMedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(firstName, lastName);
     	
     	if(medicalRecordForPerson.isEmpty()) {
-    		throw new EntityNotFoundException("No Medical Medical founded");
+    		throw new EntityNotFoundException("No Medical Record founded");
     	}
     	
-    	imedicalrecorddao.update(medicalRecord);
+    	iMedicalRecordDao.update(medicalRecord);
     }
 	
     @Override
     public void delete(String firstName, String lastName) {
-    	var medicalRecordForPerson = imedicalrecorddao.fetchMedicalRecordByFirstNameAndLastName(firstName, lastName);
+    	var medicalRecordForPerson = iMedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(firstName, lastName);
     	if(medicalRecordForPerson.isEmpty()) {
     		throw new EntityNotFoundException("Medical Record does not exist");
     	}
         MedicalRecordModel medicalRecord = new MedicalRecordModel();
         medicalRecord.setFirstName(firstName);
         medicalRecord.setLastName(lastName);
-        imedicalrecorddao.delete(medicalRecord);
+        iMedicalRecordDao.delete(medicalRecord);
     }
 }

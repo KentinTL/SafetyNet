@@ -9,6 +9,23 @@ public class MedicalRecordModel {
 	private List<String> medications;
 	private List<String> allergies;
 	
+
+	public MedicalRecordModel(String firstName, String lastName, String birthdate, List<String> medications,
+			List<String> allergies) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.birthdate = birthdate;
+		this.medications = medications;
+		this.allergies = allergies;
+	}
+	
+	
+	public MedicalRecordModel() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getFirstName() {
 		return firstName;
 	}

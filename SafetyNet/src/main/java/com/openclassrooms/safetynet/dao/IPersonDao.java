@@ -7,11 +7,11 @@ import com.openclassrooms.safetynet.model.PersonModel;
 
 public interface IPersonDao {
 	Optional<PersonModel> findByEmail(String email);
-	Optional<List<PersonModel>> findByAddress(String address);
-	Optional<List<PersonModel>>  findPersonByCity(String city);
+	List<PersonModel> findByAddress(String address);
+	List<PersonModel>  findPersonByCity(String city);
 	public void create(PersonModel personModel);
 	List<PersonModel> fecthAllPerson();
-	Optional<List<PersonModel>> findPersonsByLastName(String lastName);
+	List<PersonModel> findPersonsByLastName(String lastName);
 	void update(PersonModel personModel);
 	void delete(PersonModel personModel);
 	Optional<PersonModel> findByFirstNameAndLastName(String firstName, String lastName);

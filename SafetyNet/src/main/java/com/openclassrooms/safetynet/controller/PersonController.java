@@ -13,6 +13,7 @@ import com.openclassrooms.safetynet.controller.dto.response.InfosPersonByLastNam
 import com.openclassrooms.safetynet.controller.dto.response.ResidentAndFireStationByAddress;
 import com.openclassrooms.safetynet.model.PersonModel;
 import com.openclassrooms.safetynet.services.IPersonService;
+
 import com.openclassrooms.safetynet.services.IGetResidentAndFirestationByAddress;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -22,7 +23,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
-
 
 @RestController
 public class PersonController {
@@ -34,9 +34,9 @@ public class PersonController {
 		return ipersonservice.consultAllPersons();
 	}
 	
-	
 	@GetMapping("/childAlert")
 	public InfosChildByAdress getChildByAddress(@RequestParam String address) {
+
 		return ipersonservice.getChildUnderEighteen(address);
 	}
 	

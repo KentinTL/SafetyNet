@@ -1,0 +1,1280 @@
+2024-09-27 11:56:16 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 2584 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 11:56:16 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 11:56:16 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 11:56:17 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 11:56:17 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 963 ms
+2024-09-27 11:56:18 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 11:56:18 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.052 seconds (process running for 2.962)
+2024-09-27 11:56:20 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 11:56:20 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-09-27 11:56:20 INFO  RequestResponseInterceptor:24 - Incoming request - DELETE http://localhost:8080/person/holz/DodffO 
+2024-09-27 11:56:20 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [holz, DodffO]
+2024-09-27 11:56:20 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-09-27 11:56:20 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@7556d8d0
+2024-09-27 11:56:20 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-09-27 11:56:20 WARN  RestExceptionHandler:19 - Warning: Entity not found for request: Person does not exist
+2024-09-27 11:56:20 INFO  RequestResponseInterceptor:26 - Response sent with status code = 404 
+2024-09-27 11:58:20 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-09-27 11:58:23 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 15596 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 11:58:23 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 11:58:23 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 11:58:24 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 11:58:24 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1000 ms
+2024-09-27 11:58:25 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 11:58:25 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.081 seconds (process running for 3.027)
+2024-09-27 11:58:26 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 11:58:26 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-09-27 11:58:26 INFO  RequestResponseInterceptor:24 - Incoming request - DELETE http://localhost:8080/person/holz/DodffO 
+2024-09-27 11:58:26 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [holz, DodffO]
+2024-09-27 11:58:26 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-09-27 11:58:26 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@5c4cd161
+2024-09-27 11:58:26 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-09-27 11:58:26 WARN  RestExceptionHandler:19 - Warning: Entity not found for request: Person does not exist
+2024-09-27 11:58:26 INFO  RequestResponseInterceptor:26 - Response sent with status code = 404 
+2024-09-27 11:59:36 INFO  RequestResponseInterceptor:24 - Incoming request - DELETE http://localhost:8080/medicalRecord/fgfg/Doe 
+2024-09-27 11:59:36 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.MedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(String,String) with arguments [fgfg, Doe]
+2024-09-27 11:59:36 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-09-27 11:59:36 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@93406aa
+2024-09-27 11:59:36 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.MedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-09-27 11:59:36 WARN  RestExceptionHandler:19 - Warning: Entity not found for request: Medical Record does not exist
+2024-09-27 11:59:36 INFO  RequestResponseInterceptor:26 - Response sent with status code = 404 
+2024-09-27 12:03:04 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-09-27 12:03:45 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 284 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 12:03:45 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 12:03:45 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 12:03:46 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 12:03:46 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 953 ms
+2024-09-27 12:03:47 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 12:03:47 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 1.976 seconds (process running for 2.928)
+2024-09-27 12:03:56 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 12:03:56 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-09-27 12:03:56 INFO  RequestResponseInterceptor:24 - Incoming request - DELETE http://localhost:8080/medicalRecord/fgfg/Doe 
+2024-09-27 12:03:56 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.MedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(String,String) with arguments [fgfg, Doe]
+2024-09-27 12:03:56 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-09-27 12:03:56 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@334886c
+2024-09-27 12:03:56 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.MedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-09-27 12:03:56 WARN  RestExceptionHandler:19 - Warning: Entity not found for request: Medical Record does not exist
+2024-09-27 12:03:56 INFO  RequestResponseInterceptor:26 - Response sent with status code = 404 
+2024-09-27 12:04:29 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-09-27 12:04:31 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 8536 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 12:04:31 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 12:04:31 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 12:04:32 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 12:04:32 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 959 ms
+2024-09-27 12:04:33 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 12:04:33 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.016 seconds (process running for 2.921)
+2024-09-27 12:04:35 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 12:04:35 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-09-27 12:04:35 INFO  RequestResponseInterceptor:24 - Incoming request - DELETE http://localhost:8080/medicalRecord/fgfg/Doe 
+2024-09-27 12:04:35 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.MedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(String,String) with arguments [fgfg, Doe]
+2024-09-27 12:04:35 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-09-27 12:04:35 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@5fff0fac
+2024-09-27 12:04:35 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.MedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-09-27 12:04:35 WARN  RestExceptionHandler:19 - Warning: Entity not found for request: Medical Record does not exist
+2024-09-27 12:04:35 INFO  RequestResponseInterceptor:26 - Response sent with status code = 404 
+2024-09-27 12:04:56 INFO  RequestResponseInterceptor:24 - Incoming request - DELETE http://localhost:8080/person/holz/DodffO 
+2024-09-27 12:04:56 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [holz, DodffO]
+2024-09-27 12:04:56 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-09-27 12:04:56 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@93406aa
+2024-09-27 12:04:56 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-09-27 12:04:56 WARN  RestExceptionHandler:19 - Warning: Entity not found for request: Person does not exist
+2024-09-27 12:04:56 INFO  RequestResponseInterceptor:26 - Response sent with status code = 404 
+2024-09-27 12:05:47 INFO  RequestResponseInterceptor:24 - Incoming request - DELETE http://localhost:8080/person/holz/DodffO 
+2024-09-27 12:05:47 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [holz, DodffO]
+2024-09-27 12:05:47 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-09-27 12:05:47 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@6a92c2c
+2024-09-27 12:05:47 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-09-27 12:05:47 WARN  RestExceptionHandler:19 - Warning: Entity not found for request: Person does not exist
+2024-09-27 12:05:47 INFO  RequestResponseInterceptor:26 - Response sent with status code = 404 
+2024-09-27 12:06:05 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-09-27 13:22:31 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 1604 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 13:22:31 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 13:22:31 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 13:22:32 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 13:22:32 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1136 ms
+2024-09-27 13:22:33 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 13:22:33 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.285 seconds (process running for 3.264)
+2024-09-27 13:22:46 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 13:22:46 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-09-27 13:22:46 INFO  RequestResponseInterceptor:24 - Incoming request - DELETE http://localhost:8080/person/holy/DodffO 
+2024-09-27 13:22:46 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [holy, DodffO]
+2024-09-27 13:22:46 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-09-27 13:22:46 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@5adfce63
+2024-09-27 13:22:46 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-09-27 13:22:46 WARN  RestExceptionHandler:19 - Warning: Entity not found for request: Person does not exist
+2024-09-27 13:22:46 INFO  RequestResponseInterceptor:26 - Response sent with status code = 404 
+2024-09-27 13:25:22 INFO  RequestResponseInterceptor:24 - Incoming request - POST http://localhost:8080/person 
+2024-09-27 13:25:22 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [yulllyki, Doe]
+2024-09-27 13:25:22 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-09-27 13:25:22 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@3e69b350
+2024-09-27 13:25:22 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-09-27 13:25:22 INFO  LoggingAspect:20 - Entering method: void com.openclassrooms.safetynet.dao.PersonDao.create(PersonModel) with arguments [com.openclassrooms.safetynet.model.PersonModel@14b46687]
+2024-09-27 13:25:22 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-09-27 13:25:22 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@251f2f23
+2024-09-27 13:25:22 INFO  LoggingAspect:20 - Entering method: void com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.updateData(DataModel) with arguments [com.openclassrooms.safetynet.model.DataModel@251f2f23]
+2024-09-27 13:25:22 INFO  LoggingAspect:26 - Exiting method: void com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.updateData(DataModel) with result: null
+2024-09-27 13:25:22 INFO  LoggingAspect:26 - Exiting method: void com.openclassrooms.safetynet.dao.PersonDao.create(PersonModel) with result: null
+2024-09-27 13:25:22 INFO  RequestResponseInterceptor:26 - Response sent with status code = 201 
+2024-09-27 13:33:02 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-09-27 13:33:04 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 10572 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 13:33:04 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 13:33:04 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 13:33:05 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 13:33:05 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1048 ms
+2024-09-27 13:33:06 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 13:33:06 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.178 seconds (process running for 3.163)
+2024-09-27 13:33:13 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 13:33:13 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-09-27 13:33:13 INFO  RequestResponseInterceptor:26 - Incoming request - POST http://localhost:8080/person 
+2024-09-27 13:33:13 INFO  RequestResponseInterceptor:30 - Incoming body - POST {
+  "firstName": "yullloki",
+  "lastName": "Doe",
+  "address": "128 Main St",
+  "city": "SuperTown",
+  "zip": "12348",
+  "phone": "555-555-5558",
+  "email": "yulllyki.doe@example.com"
+} 
+2024-09-27 13:33:13 ERROR RestExceptionHandler:43 - Critical Error: Unexpected error occurred: getReader() has already been called for this request
+java.lang.IllegalStateException: getReader() has already been called for this request
+	at org.apache.catalina.connector.Request.getInputStream(Request.java:1003) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.RequestFacade.getInputStream(RequestFacade.java:298) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.util.ContentCachingRequestWrapper.getInputStream(ContentCachingRequestWrapper.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.http.server.ServletServerHttpRequest.getBody(ServletServerHttpRequest.java:216) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage.<init>(AbstractMessageConverterMethodArgumentResolver.java:327) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:174) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.openclassrooms.safetynet.exceptions.RequestResponseInterceptor.doFilter(RequestResponseInterceptor.java:33) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-09-27 13:33:13 INFO  RequestResponseInterceptor:34 - Response sent with status code = 500 
+2024-09-27 13:42:06 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-09-27 13:46:31 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 12064 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 13:46:31 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 13:46:31 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 13:46:32 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 13:46:33 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1169 ms
+2024-09-27 13:46:33 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 13:46:33 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.428 seconds (process running for 3.433)
+2024-09-27 13:46:38 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 13:46:38 INFO  DispatcherServlet:554 - Completed initialization in 0 ms
+2024-09-27 13:46:38 INFO  RequestResponseInterceptor:34 - Incoming request - POST http://localhost:8080/person 
+2024-09-27 13:46:38 INFO  RequestResponseInterceptor:42 - Incoming body - POST {
+  "firstName": "yullloki",
+  "lastName": "Doe",
+  "address": "128 Main St",
+  "city": "SuperTown",
+  "zip": "12348",
+  "phone": "555-555-5558",
+  "email": "yulllyki.doe@example.com"
+} 
+2024-09-27 13:46:38 ERROR RestExceptionHandler:43 - Critical Error: Unexpected error occurred: getReader() has already been called for this request
+java.lang.IllegalStateException: getReader() has already been called for this request
+	at org.apache.catalina.connector.Request.getInputStream(Request.java:1003) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.RequestFacade.getInputStream(RequestFacade.java:298) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.util.ContentCachingRequestWrapper.getInputStream(ContentCachingRequestWrapper.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.http.server.ServletServerHttpRequest.getBody(ServletServerHttpRequest.java:216) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage.<init>(AbstractMessageConverterMethodArgumentResolver.java:327) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:174) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.openclassrooms.safetynet.exceptions.RequestResponseInterceptor.doFilter(RequestResponseInterceptor.java:45) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-09-27 13:46:38 INFO  RequestResponseInterceptor:46 - Response sent with status code = 500 
+2024-09-27 13:57:59 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-09-27 13:58:03 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 15476 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 13:58:03 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 13:58:03 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 13:58:04 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 13:58:04 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1073 ms
+2024-09-27 13:58:05 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 13:58:05 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.191 seconds (process running for 3.157)
+2024-09-27 13:58:11 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 13:58:11 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-09-27 13:58:11 INFO  RequestResponseInterceptor:28 - Incoming request - POST http://localhost:8080/person 
+2024-09-27 13:58:11 INFO  RequestResponseInterceptor:32 - Incoming body - com.openclassrooms.safetynet.exceptions.RequestWrapper@16008a06 
+2024-09-27 13:58:11 ERROR RestExceptionHandler:43 - Critical Error: Unexpected error occurred: I/O error while reading input message
+org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:200) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.openclassrooms.safetynet.exceptions.RequestResponseInterceptor.doFilter(RequestResponseInterceptor.java:35) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.IOException: Stream closed
+	at org.apache.catalina.connector.InputBuffer.throwIfClosed(InputBuffer.java:545) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.InputBuffer.readByte(InputBuffer.java:346) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:85) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.util.ContentCachingRequestWrapper$ContentCachingInputStream.read(ContentCachingRequestWrapper.java:241) ~[spring-web-6.1.8.jar:6.1.8]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:150) ~[?:?]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage.<init>(AbstractMessageConverterMethodArgumentResolver.java:335) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:174) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	... 56 more
+2024-09-27 13:58:11 INFO  RequestResponseInterceptor:36 - Response sent with status code = 500 
+2024-09-27 14:00:49 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-09-27 14:00:51 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 15956 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 14:00:51 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 14:00:51 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 14:00:52 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 14:00:52 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1027 ms
+2024-09-27 14:00:53 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 14:00:53 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.152 seconds (process running for 3.132)
+2024-09-27 14:00:55 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 14:00:55 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-09-27 14:00:55 INFO  RequestResponseInterceptor:28 - Incoming request - POST http://localhost:8080/person 
+2024-09-27 14:00:55 INFO  RequestResponseInterceptor:32 - Incoming body - {
+  "firstName": "yullloki",
+  "lastName": "Doe",
+  "address": "128 Main St",
+  "city": "SuperTown",
+  "zip": "12348",
+  "phone": "555-555-5558",
+  "email": "yulllyki.doe@example.com"
+} 
+2024-09-27 14:00:55 ERROR RestExceptionHandler:43 - Critical Error: Unexpected error occurred: I/O error while reading input message
+org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:200) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.openclassrooms.safetynet.exceptions.RequestResponseInterceptor.doFilter(RequestResponseInterceptor.java:35) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.IOException: Stream closed
+	at org.apache.catalina.connector.InputBuffer.throwIfClosed(InputBuffer.java:545) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.InputBuffer.readByte(InputBuffer.java:346) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:85) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.util.ContentCachingRequestWrapper$ContentCachingInputStream.read(ContentCachingRequestWrapper.java:241) ~[spring-web-6.1.8.jar:6.1.8]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:150) ~[?:?]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage.<init>(AbstractMessageConverterMethodArgumentResolver.java:335) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:174) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	... 56 more
+2024-09-27 14:00:55 INFO  RequestResponseInterceptor:36 - Response sent with status code = 500 
+2024-09-27 14:02:45 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-09-27 14:02:47 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 16528 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 14:02:47 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 14:02:47 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 14:02:48 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 14:02:48 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1039 ms
+2024-09-27 14:02:49 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 14:02:49 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.209 seconds (process running for 3.174)
+2024-09-27 14:02:54 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 14:02:54 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-09-27 14:02:54 INFO  RequestResponseInterceptor:28 - Incoming request - POST http://localhost:8080/person 
+2024-09-27 14:02:54 INFO  RequestResponseInterceptor:32 - Incoming body - {
+  "firstName": "yulllpki",
+  "lastName": "Doe",
+  "address": "128 Main St",
+  "city": "SuperTown",
+  "zip": "12348",
+  "phone": "555-555-5558",
+  "email": "yulllyki.doe@example.com"
+} 
+2024-09-27 14:02:54 INFO  RequestResponseInterceptor:36 - Response sent with status code = 500 
+2024-09-27 14:12:22 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-09-27 14:12:26 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 11524 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 14:12:26 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 14:12:26 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 14:12:27 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 14:12:27 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1105 ms
+2024-09-27 14:12:28 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 14:12:28 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.267 seconds (process running for 3.213)
+2024-09-27 14:12:34 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 14:12:34 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-09-27 14:12:34 INFO  RequestResponseInterceptor:28 - Incoming request - POST http://localhost:8080/person 
+2024-09-27 14:12:34 INFO  RequestResponseInterceptor:32 - Incoming body - {
+  "firstName": "yulllpki",
+  "lastName": "Doe",
+  "address": "128 Main St",
+  "city": "SuperTown",
+  "zip": "12348",
+  "phone": "555-555-5558",
+  "email": "yulllyki.doe@example.com"
+} 
+2024-09-27 14:12:34 ERROR RestExceptionHandler:43 - Critical Error: Unexpected error occurred: I/O error while reading input message
+org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:200) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.openclassrooms.safetynet.exceptions.RequestResponseInterceptor.doFilter(RequestResponseInterceptor.java:35) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.IOException: Stream closed
+	at org.apache.catalina.connector.InputBuffer.throwIfClosed(InputBuffer.java:545) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.InputBuffer.readByte(InputBuffer.java:346) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:85) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.util.ContentCachingRequestWrapper$ContentCachingInputStream.read(ContentCachingRequestWrapper.java:241) ~[spring-web-6.1.8.jar:6.1.8]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:150) ~[?:?]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage.<init>(AbstractMessageConverterMethodArgumentResolver.java:335) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:174) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	... 56 more
+2024-09-27 14:12:34 INFO  RequestResponseInterceptor:36 - Response sent with status code = 500 
+2024-09-27 14:15:04 INFO  RequestResponseInterceptor:28 - Incoming request - POST http://localhost:8080/person 
+2024-09-27 14:15:04 INFO  RequestResponseInterceptor:32 - Incoming body - {
+  "firstName": "yupoki",
+  "lastName": "Doe",
+  "address": "128 Main St",
+  "city": "SuperTown",
+  "zip": "12348",
+  "phone": "555-555-5558",
+  "email": "yulllyki.doe@example.com"
+} 
+2024-09-27 14:15:04 ERROR RestExceptionHandler:43 - Critical Error: Unexpected error occurred: I/O error while reading input message
+org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:200) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.openclassrooms.safetynet.exceptions.RequestResponseInterceptor.doFilter(RequestResponseInterceptor.java:35) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.IOException: Stream closed
+	at org.apache.catalina.connector.InputBuffer.throwIfClosed(InputBuffer.java:545) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.InputBuffer.readByte(InputBuffer.java:346) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:85) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.util.ContentCachingRequestWrapper$ContentCachingInputStream.read(ContentCachingRequestWrapper.java:241) ~[spring-web-6.1.8.jar:6.1.8]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:150) ~[?:?]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage.<init>(AbstractMessageConverterMethodArgumentResolver.java:335) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:174) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	... 56 more
+2024-09-27 14:15:04 INFO  RequestResponseInterceptor:36 - Response sent with status code = 500 
+2024-09-27 14:17:44 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-09-27 14:17:48 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 9660 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-09-27 14:17:48 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-27 14:17:48 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-27 14:17:49 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-27 14:17:50 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1097 ms
+2024-09-27 14:17:50 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-27 14:17:50 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.253 seconds (process running for 3.242)
+2024-09-27 14:17:58 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-27 14:17:58 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-09-27 14:17:58 INFO  RequestResponseInterceptor:28 - Incoming request - POST http://localhost:8080/person 
+2024-09-27 14:17:58 INFO  RequestResponseInterceptor:32 - Incoming body - {
+  "firstName": "yupoki",
+  "lastName": "Doe",
+  "address": "128 Main St",
+  "city": "SuperTown",
+  "zip": "12348",
+  "phone": "555-555-5558",
+  "email": "yulllyki.doe@example.com"
+} 
+2024-09-27 14:17:58 INFO  RequestResponseInterceptor:36 - Response sent with status code = 500 
+2024-09-27 17:17:26 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-10-01 18:36:37 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 1296 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 18:36:37 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 18:36:37 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:36:39 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 18:36:39 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1169 ms
+2024-10-01 18:36:39 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 18:36:39 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.324 seconds (process running for 3.836)
+2024-10-01 18:37:09 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 18:37:09 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-01 18:37:09 INFO  RequestResponseInterceptor:28 - Incoming request - POST http://localhost:8080/person 
+2024-10-01 18:37:09 INFO  RequestResponseInterceptor:32 - Incoming body - {
+  "firstName": "carlis",
+  "lastName": "Doe",
+  "address": "128 Main St",
+  "city": "SuperTown",
+  "zip": "12348",
+  "phone": "555-555-5558",
+  "email": "yulllyki.doe@example.com"
+} 
+2024-10-01 18:37:09 ERROR RestExceptionHandler:43 - Critical Error: Unexpected error occurred: I/O error while reading input message
+org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:200) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.openclassrooms.safetynet.exceptions.RequestResponseInterceptor.doFilter(RequestResponseInterceptor.java:35) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.IOException: Stream closed
+	at org.apache.catalina.connector.InputBuffer.throwIfClosed(InputBuffer.java:545) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.InputBuffer.readByte(InputBuffer.java:346) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:85) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.util.ContentCachingRequestWrapper$ContentCachingInputStream.read(ContentCachingRequestWrapper.java:241) ~[spring-web-6.1.8.jar:6.1.8]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:150) ~[?:?]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage.<init>(AbstractMessageConverterMethodArgumentResolver.java:335) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:174) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	... 56 more
+2024-10-01 18:37:09 INFO  RequestResponseInterceptor:36 - Response sent with status code = 500 
+2024-10-01 18:38:17 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-10-01 18:38:24 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 11124 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 18:38:24 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 18:38:24 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:38:25 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 18:38:25 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1030 ms
+2024-10-01 18:38:25 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 18:38:25 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.095 seconds (process running for 3.129)
+2024-10-01 18:38:47 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 18:38:47 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-01 18:38:47 INFO  RequestResponseInterceptor:28 - Incoming request - POST http://localhost:8080/person 
+2024-10-01 18:38:47 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [carlis, Doe]
+2024-10-01 18:38:47 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-10-01 18:38:47 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@3bb738fe
+2024-10-01 18:38:47 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-10-01 18:38:47 INFO  LoggingAspect:20 - Entering method: void com.openclassrooms.safetynet.dao.PersonDao.create(PersonModel) with arguments [com.openclassrooms.safetynet.model.PersonModel@5ad4870f]
+2024-10-01 18:38:47 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-10-01 18:38:47 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@1f0759c2
+2024-10-01 18:38:47 INFO  LoggingAspect:20 - Entering method: void com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.updateData(DataModel) with arguments [com.openclassrooms.safetynet.model.DataModel@1f0759c2]
+2024-10-01 18:38:47 INFO  LoggingAspect:26 - Exiting method: void com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.updateData(DataModel) with result: null
+2024-10-01 18:38:47 INFO  LoggingAspect:26 - Exiting method: void com.openclassrooms.safetynet.dao.PersonDao.create(PersonModel) with result: null
+2024-10-01 18:38:47 INFO  RequestResponseInterceptor:38 - Response sent with status code = 201 
+2024-10-01 18:40:45 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-10-01 18:40:49 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 9880 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 18:40:49 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 18:40:49 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:40:50 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 18:40:50 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 955 ms
+2024-10-01 18:40:50 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 18:40:50 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.005 seconds (process running for 2.928)
+2024-10-01 18:41:11 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 18:41:11 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-01 18:41:11 INFO  RequestResponseInterceptor:28 - Incoming request - POST http://localhost:8080/person 
+2024-10-01 18:41:11 INFO  RequestResponseInterceptor:32 - Incoming body - {
+  "firstName": "carlus",
+  "lastName": "Doe",
+  "address": "128 Main St",
+  "city": "SuperTown",
+  "zip": "12348",
+  "phone": "555-555-5558",
+  "email": "yulllyki.doe@example.com"
+} 
+2024-10-01 18:41:11 ERROR RestExceptionHandler:43 - Critical Error: Unexpected error occurred: I/O error while reading input message
+org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:200) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.openclassrooms.safetynet.exceptions.RequestResponseInterceptor.doFilter(RequestResponseInterceptor.java:35) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.IOException: Stream closed
+	at org.apache.catalina.connector.InputBuffer.throwIfClosed(InputBuffer.java:545) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.InputBuffer.readByte(InputBuffer.java:346) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:85) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.util.ContentCachingRequestWrapper$ContentCachingInputStream.read(ContentCachingRequestWrapper.java:241) ~[spring-web-6.1.8.jar:6.1.8]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:150) ~[?:?]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage.<init>(AbstractMessageConverterMethodArgumentResolver.java:335) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:174) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	... 56 more
+2024-10-01 18:41:11 INFO  RequestResponseInterceptor:36 - Response sent with status code = 500 
+2024-10-01 18:41:39 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 11384 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 18:41:39 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 18:41:39 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:41:41 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 18:41:41 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1351 ms
+2024-10-01 18:41:41 WARN  AnnotationConfigServletWebServerApplicationContext:632 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-01 18:41:41 INFO  ConditionEvaluationReportLogger:82 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-01 18:41:41 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-10-01 18:41:47 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-10-01 18:42:03 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 9628 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 18:42:03 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 18:42:03 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:42:04 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 18:42:04 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1350 ms
+2024-10-01 18:42:05 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 18:42:05 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.676 seconds (process running for 10.596)
+2024-10-01 18:42:09 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 18:42:09 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-01 18:42:09 INFO  RequestResponseInterceptor:28 - Incoming request - POST http://localhost:8080/person 
+2024-10-01 18:42:40 INFO  RequestResponseInterceptor:32 - Incoming body - {
+  "firstName": "carlus",
+  "lastName": "Doe",
+  "address": "128 Main St",
+  "city": "SuperTown",
+  "zip": "12348",
+  "phone": "555-555-5558",
+  "email": "yulllyki.doe@example.com"
+} 
+2024-10-01 18:42:49 ERROR RestExceptionHandler:43 - Critical Error: Unexpected error occurred: I/O error while reading input message
+org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:200) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.openclassrooms.safetynet.exceptions.RequestResponseInterceptor.doFilter(RequestResponseInterceptor.java:35) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.IOException: Stream closed
+	at org.apache.catalina.connector.InputBuffer.throwIfClosed(InputBuffer.java:545) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.InputBuffer.readByte(InputBuffer.java:346) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:85) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.util.ContentCachingRequestWrapper$ContentCachingInputStream.read(ContentCachingRequestWrapper.java:241) ~[spring-web-6.1.8.jar:6.1.8]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:150) ~[?:?]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage.<init>(AbstractMessageConverterMethodArgumentResolver.java:335) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:174) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	... 56 more
+2024-10-01 18:43:36 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 6200 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 18:43:36 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 18:43:36 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:43:37 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 18:43:38 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1202 ms
+2024-10-01 18:43:38 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 18:43:38 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.357 seconds (process running for 3.336)
+2024-10-01 18:43:41 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 18:43:41 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-01 18:43:41 INFO  RequestResponseInterceptor:28 - Incoming request - POST http://localhost:8080/person 
+2024-10-01 18:43:41 INFO  RequestResponseInterceptor:32 - Incoming body - {
+  "firstName": "carlus",
+  "lastName": "Doe",
+  "address": "128 Main St",
+  "city": "SuperTown",
+  "zip": "12348",
+  "phone": "555-555-5558",
+  "email": "yulllyki.doe@example.com"
+} 
+2024-10-01 18:43:41 INFO  RequestResponseInterceptor:36 - Response sent with status code = 200 
+2024-10-01 18:44:44 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-10-01 18:49:48 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 2260 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 18:49:48 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 18:49:48 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:49:49 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 18:49:49 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1149 ms
+2024-10-01 18:49:50 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 18:49:50 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.315 seconds (process running for 3.255)
+2024-10-01 18:50:06 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 18:50:06 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-01 18:50:06 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [Nathalie, Doe]
+2024-10-01 18:50:06 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-10-01 18:50:06 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@2779c7c3
+2024-10-01 18:50:06 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional[com.openclassrooms.safetynet.model.PersonModel@401d02a8]
+2024-10-01 18:50:06 INFO  LoggingAspect:20 - Entering method: void com.openclassrooms.safetynet.dao.PersonDao.update(PersonModel) with arguments [com.openclassrooms.safetynet.model.PersonModel@4655d4e]
+2024-10-01 18:50:06 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-10-01 18:50:06 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@32fc7260
+2024-10-01 18:50:06 INFO  LoggingAspect:26 - Exiting method: void com.openclassrooms.safetynet.dao.PersonDao.update(PersonModel) with result: null
+2024-10-01 18:51:03 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [carlus, Doe]
+2024-10-01 18:51:03 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-10-01 18:51:03 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@38008ae6
+2024-10-01 18:51:03 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-10-01 18:51:03 WARN  RestExceptionHandler:19 - Warning: Entity not found for request: No persons founded
+2024-10-01 18:51:15 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [carlis, Doe]
+2024-10-01 18:51:15 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-10-01 18:51:15 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@748de72a
+2024-10-01 18:51:15 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional[com.openclassrooms.safetynet.model.PersonModel@318f77df]
+2024-10-01 18:51:15 INFO  LoggingAspect:20 - Entering method: void com.openclassrooms.safetynet.dao.PersonDao.update(PersonModel) with arguments [com.openclassrooms.safetynet.model.PersonModel@742638]
+2024-10-01 18:51:15 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-10-01 18:51:15 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@b7cc6c4
+2024-10-01 18:51:15 INFO  LoggingAspect:20 - Entering method: void com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.updateData(DataModel) with arguments [com.openclassrooms.safetynet.model.DataModel@b7cc6c4]
+2024-10-01 18:51:15 INFO  LoggingAspect:26 - Exiting method: void com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.updateData(DataModel) with result: null
+2024-10-01 18:51:15 INFO  LoggingAspect:26 - Exiting method: void com.openclassrooms.safetynet.dao.PersonDao.update(PersonModel) with result: null
+2024-10-01 18:51:47 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [carlus, Doe]
+2024-10-01 18:51:47 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-10-01 18:51:47 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@141d09e4
+2024-10-01 18:51:47 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional.empty
+2024-10-01 18:51:47 INFO  LoggingAspect:20 - Entering method: void com.openclassrooms.safetynet.dao.PersonDao.create(PersonModel) with arguments [com.openclassrooms.safetynet.model.PersonModel@3c3ae065]
+2024-10-01 18:51:47 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-10-01 18:51:47 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@1277ec61
+2024-10-01 18:51:47 INFO  LoggingAspect:20 - Entering method: void com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.updateData(DataModel) with arguments [com.openclassrooms.safetynet.model.DataModel@1277ec61]
+2024-10-01 18:51:47 INFO  LoggingAspect:26 - Exiting method: void com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.updateData(DataModel) with result: null
+2024-10-01 18:51:47 INFO  LoggingAspect:26 - Exiting method: void com.openclassrooms.safetynet.dao.PersonDao.create(PersonModel) with result: null
+2024-10-01 18:53:04 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-10-01 18:53:10 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 12588 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 18:53:11 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 18:53:11 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:53:12 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 18:53:12 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1139 ms
+2024-10-01 18:53:12 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 18:53:12 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.31 seconds (process running for 3.542)
+2024-10-01 18:53:25 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 18:53:25 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-01 18:53:25 INFO  LoggingAspect:20 - Entering method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with arguments [carlis, Doe]
+2024-10-01 18:53:25 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-10-01 18:53:25 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@421a194b
+2024-10-01 18:53:25 INFO  LoggingAspect:26 - Exiting method: Optional com.openclassrooms.safetynet.dao.PersonDao.findByFirstNameAndLastName(String,String) with result: Optional[com.openclassrooms.safetynet.model.PersonModel@4667598f]
+2024-10-01 18:53:25 INFO  LoggingAspect:20 - Entering method: void com.openclassrooms.safetynet.dao.PersonDao.update(PersonModel) with arguments [com.openclassrooms.safetynet.model.PersonModel@1f6c8e4a]
+2024-10-01 18:53:25 INFO  LoggingAspect:20 - Entering method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with arguments []
+2024-10-01 18:53:25 INFO  LoggingAspect:26 - Exiting method: DataModel com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.fetchData() with result: com.openclassrooms.safetynet.model.DataModel@11375590
+2024-10-01 18:53:25 INFO  LoggingAspect:20 - Entering method: void com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.updateData(DataModel) with arguments [com.openclassrooms.safetynet.model.DataModel@11375590]
+2024-10-01 18:54:00 INFO  LoggingAspect:26 - Exiting method: void com.openclassrooms.safetynet.dao.GeneriqueDataModelDao.updateData(DataModel) with result: null
+2024-10-01 18:54:04 INFO  LoggingAspect:26 - Exiting method: void com.openclassrooms.safetynet.dao.PersonDao.update(PersonModel) with result: null
+2024-10-01 18:55:26 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 1476 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 18:55:26 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 18:55:26 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 18:55:27 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 18:55:28 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1364 ms
+2024-10-01 18:55:28 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 18:55:28 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.529 seconds (process running for 3.733)
+2024-10-01 18:55:36 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 18:55:36 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-10-01 18:55:36 INFO  RequestResponseInterceptor:28 - Incoming request - PUT http://localhost:8080/person/carlis/Doe 
+2024-10-01 18:55:43 INFO  RequestResponseInterceptor:32 - Incoming body - {
+    "firstName":"carlis", 
+    "lastName":"Doe", 
+    "address":"123 Main St", 
+    "city":"toTown", 
+    "zip":"77600", 
+    "phone":"666-555-5555", 
+    "email":"supernath.doe@example.com"
+} 
+2024-10-01 18:55:43 INFO  RequestResponseInterceptor:36 - Response sent with status code = 200 
+2024-10-01 19:00:20 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 4220 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 19:00:20 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 19:00:20 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 19:00:21 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 19:00:21 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1102 ms
+2024-10-01 19:00:22 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 19:00:22 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.259 seconds (process running for 3.456)
+2024-10-01 19:00:34 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 2844 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 19:00:34 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 19:00:34 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 19:00:35 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 19:00:35 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 952 ms
+2024-10-01 19:00:36 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 19:00:36 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 1.98 seconds (process running for 2.866)
+2024-10-01 19:00:42 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-10-01 19:00:53 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 5824 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 19:00:53 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 19:00:53 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 19:00:54 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 19:00:54 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 959 ms
+2024-10-01 19:00:54 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 19:00:54 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 1.992 seconds (process running for 2.879)
+2024-10-01 19:01:02 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 19:01:02 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-01 19:01:02 INFO  RequestResponseInterceptor:28 - Incoming request - PUT http://localhost:8080/person/carlis/Doe 
+2024-10-01 19:01:02 INFO  RequestResponseInterceptor:32 - Incoming body - {
+    "firstName":"carlis", 
+    "lastName":"Doe", 
+    "address":"123 Main St", 
+    "city":"popooTown", 
+    "zip":"77600", 
+    "phone":"666-555-5555", 
+    "email":"supernath.doe@example.com"
+} 
+2024-10-01 19:01:02 ERROR RestExceptionHandler:43 - Critical Error: Unexpected error occurred: I/O error while reading input message
+org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:200) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.openclassrooms.safetynet.exceptions.RequestResponseInterceptor.doFilter(RequestResponseInterceptor.java:35) ~[classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.IOException: Stream closed
+	at org.apache.catalina.connector.InputBuffer.throwIfClosed(InputBuffer.java:545) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.InputBuffer.readByte(InputBuffer.java:346) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteInputStream.read(CoyoteInputStream.java:85) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.util.ContentCachingRequestWrapper$ContentCachingInputStream.read(ContentCachingRequestWrapper.java:241) ~[spring-web-6.1.8.jar:6.1.8]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:150) ~[?:?]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver$EmptyBodyCheckingHttpInputMessage.<init>(AbstractMessageConverterMethodArgumentResolver.java:335) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:174) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	... 56 more
+2024-10-01 19:01:02 INFO  RequestResponseInterceptor:36 - Response sent with status code = 500 
+2024-10-01 19:01:17 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-10-01 19:02:39 INFO  SafetyNetApplication:50 - Starting SafetyNetApplication using Java 21 with PID 8476 (C:\Users\qthib\git\SafetyNetProject\SafetyNet\target\classes started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-01 19:02:39 DEBUG SafetyNetApplication:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-01 19:02:39 INFO  SafetyNetApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 19:02:40 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-10-01 19:02:40 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 973 ms
+2024-10-01 19:02:41 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-01 19:02:41 INFO  SafetyNetApplication:56 - Started SafetyNetApplication in 2.013 seconds (process running for 2.913)
+2024-10-01 19:02:51 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 19:02:51 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-01 19:02:51 INFO  RequestResponseInterceptor:28 - Incoming request - PUT http://localhost:8080/person/carlis/Doe 
+2024-10-01 19:02:51 INFO  RequestResponseInterceptor:32 - Incoming body - {
+    "firstName":"carlis", 
+    "lastName":"Doe", 
+    "address":"123 Main St", 
+    "city":"popoTown", 
+    "zip":"77600", 
+    "phone":"666-555-5555", 
+    "email":"supernath.doe@example.com"
+} 
+2024-10-01 19:02:51 INFO  RequestResponseInterceptor:36 - Response sent with status code = 200 
+2024-10-01 19:03:00 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2024-10-02 22:22:10 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.FireStationControllerTest]: FireStationControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-02 22:22:10 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.FireStationControllerTest
+2024-10-02 22:22:11 INFO  FireStationControllerTest:50 - Starting FireStationControllerTest using Java 21 with PID 10524 (started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-02 22:22:11 DEBUG FireStationControllerTest:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-02 22:22:11 INFO  FireStationControllerTest:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-02 22:22:14 INFO  SpringBootMockServletContext:437 - Initializing Spring TestDispatcherServlet ''
+2024-10-02 22:22:14 INFO  TestDispatcherServlet:532 - Initializing Servlet ''
+2024-10-02 22:22:14 INFO  TestDispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-02 22:22:14 INFO  FireStationControllerTest:56 - Started FireStationControllerTest in 3.297 seconds (process running for 6.386)
+2024-10-02 22:22:14 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.MedicalRecordControllerTest]: MedicalRecordControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-02 22:22:14 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.MedicalRecordControllerTest
+2024-10-02 22:22:14 INFO  MedicalRecordControllerTest:50 - Starting MedicalRecordControllerTest using Java 21 with PID 10524 (started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-02 22:22:14 DEBUG MedicalRecordControllerTest:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-02 22:22:14 INFO  MedicalRecordControllerTest:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-02 22:22:15 INFO  SpringBootMockServletContext:437 - Initializing Spring TestDispatcherServlet ''
+2024-10-02 22:22:15 INFO  TestDispatcherServlet:532 - Initializing Servlet ''
+2024-10-02 22:22:15 INFO  TestDispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-02 22:22:15 INFO  MedicalRecordControllerTest:56 - Started MedicalRecordControllerTest in 0.342 seconds (process running for 7.266)
+2024-10-02 22:22:15 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-02 22:22:15 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.PersonControllerTest
+2024-10-02 22:22:15 INFO  PersonControllerTest:50 - Starting PersonControllerTest using Java 21 with PID 10524 (started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-02 22:22:15 DEBUG PersonControllerTest:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-02 22:22:15 INFO  PersonControllerTest:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-02 22:22:15 INFO  SpringBootMockServletContext:437 - Initializing Spring TestDispatcherServlet ''
+2024-10-02 22:22:15 INFO  TestDispatcherServlet:532 - Initializing Servlet ''
+2024-10-02 22:22:15 INFO  TestDispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-02 22:22:15 INFO  PersonControllerTest:56 - Started PersonControllerTest in 0.355 seconds (process running for 7.687)
+2024-10-02 22:22:16 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.openclassrooms.safetynet.SafetyNetApplicationTests]: SafetyNetApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-02 22:22:16 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.SafetyNetApplicationTests
+2024-10-02 22:22:16 INFO  SafetyNetApplicationTests:50 - Starting SafetyNetApplicationTests using Java 21 with PID 10524 (started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-02 22:22:16 DEBUG SafetyNetApplicationTests:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-02 22:22:16 INFO  SafetyNetApplicationTests:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-02 22:22:18 INFO  SafetyNetApplicationTests:56 - Started SafetyNetApplicationTests in 1.816 seconds (process running for 10.731)
+2024-10-02 22:24:33 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.FireStationControllerTest]: FireStationControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-02 22:24:34 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.FireStationControllerTest
+2024-10-02 22:24:34 INFO  FireStationControllerTest:50 - Starting FireStationControllerTest using Java 21 with PID 9884 (started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-02 22:24:34 DEBUG FireStationControllerTest:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-02 22:24:34 INFO  FireStationControllerTest:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-02 22:24:37 INFO  SpringBootMockServletContext:437 - Initializing Spring TestDispatcherServlet ''
+2024-10-02 22:24:37 INFO  TestDispatcherServlet:532 - Initializing Servlet ''
+2024-10-02 22:24:37 INFO  TestDispatcherServlet:554 - Completed initialization in 2 ms
+2024-10-02 22:24:37 INFO  FireStationControllerTest:56 - Started FireStationControllerTest in 2.974 seconds (process running for 5.596)
+2024-10-02 22:24:37 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.MedicalRecordControllerTest]: MedicalRecordControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-02 22:24:37 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.MedicalRecordControllerTest
+2024-10-02 22:24:37 INFO  MedicalRecordControllerTest:50 - Starting MedicalRecordControllerTest using Java 21 with PID 9884 (started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-02 22:24:37 DEBUG MedicalRecordControllerTest:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-02 22:24:37 INFO  MedicalRecordControllerTest:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-02 22:24:37 INFO  SpringBootMockServletContext:437 - Initializing Spring TestDispatcherServlet ''
+2024-10-02 22:24:37 INFO  TestDispatcherServlet:532 - Initializing Servlet ''
+2024-10-02 22:24:37 INFO  TestDispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-02 22:24:37 INFO  MedicalRecordControllerTest:56 - Started MedicalRecordControllerTest in 0.339 seconds (process running for 6.38)
+2024-10-02 22:24:37 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-02 22:24:37 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.PersonControllerTest
+2024-10-02 22:24:37 INFO  PersonControllerTest:50 - Starting PersonControllerTest using Java 21 with PID 9884 (started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-02 22:24:37 DEBUG PersonControllerTest:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-02 22:24:37 INFO  PersonControllerTest:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-02 22:24:38 INFO  SpringBootMockServletContext:437 - Initializing Spring TestDispatcherServlet ''
+2024-10-02 22:24:38 INFO  TestDispatcherServlet:532 - Initializing Servlet ''
+2024-10-02 22:24:38 INFO  TestDispatcherServlet:554 - Completed initialization in 1 ms
+2024-10-02 22:24:38 INFO  PersonControllerTest:56 - Started PersonControllerTest in 0.34 seconds (process running for 6.794)
+2024-10-02 22:24:39 INFO  AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.openclassrooms.safetynet.SafetyNetApplicationTests]: SafetyNetApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-02 22:24:39 INFO  SpringBootTestContextBootstrapper:234 - Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.SafetyNetApplicationTests
+2024-10-02 22:24:39 INFO  SafetyNetApplicationTests:50 - Starting SafetyNetApplicationTests using Java 21 with PID 9884 (started by qthib in C:\Users\qthib\git\SafetyNetProject\SafetyNet)
+2024-10-02 22:24:39 DEBUG SafetyNetApplicationTests:51 - Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-10-02 22:24:39 INFO  SafetyNetApplicationTests:654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-02 22:24:41 INFO  SafetyNetApplicationTests:56 - Started SafetyNetApplicationTests in 1.761 seconds (process running for 9.724)

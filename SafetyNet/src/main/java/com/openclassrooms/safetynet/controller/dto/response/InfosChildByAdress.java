@@ -14,6 +14,10 @@ public class InfosChildByAdress {
 		setListOfAdult(adultList);
 	}
 	
+	public InfosChildByAdress() {
+		// TODO Auto-generated constructor stub
+	}
+
 	private List<PersonModelWithAge> listOfChild;
 	private List<MinimalPersonModel> listOfAdult;
 	

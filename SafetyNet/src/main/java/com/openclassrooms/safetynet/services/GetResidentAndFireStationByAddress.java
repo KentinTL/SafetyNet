@@ -2,7 +2,6 @@ package com.openclassrooms.safetynet.services;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -32,12 +31,12 @@ public class GetResidentAndFireStationByAddress implements IGetResidentAndFirest
 		
 		List<ResidentByAddress> residentByAddress = new ArrayList<ResidentByAddress>();
 
-		Optional<List<PersonModel>> allPersonsList = iPersonDao.findByAddress(address);
+		List<PersonModel> allPersonsList = iPersonDao.findByAddress(address);
 		
 		var fireStation = iFireStationDao.fetchFireStationByAddress(address);		
 		int fireStationNumber = fireStation.isPresent() ? fireStation.get().getStation() : 0;
 
-		for (PersonModel person: allPersonsList.get()) {
+		for (PersonModel person: allPersonsList) {
 			var medicalRecord = iMedicalRecordDao.fetchMedicalRecordByFirstNameAndLastName(person.getFirstName(), person.getLastName());
 			
 			
