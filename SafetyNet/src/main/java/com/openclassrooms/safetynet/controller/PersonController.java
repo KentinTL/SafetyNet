@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.openclassrooms.safetynet.controller.dto.response.InfosChildByAdress;
@@ -13,6 +14,8 @@ import com.openclassrooms.safetynet.controller.dto.response.InfosPersonByLastNam
 import com.openclassrooms.safetynet.controller.dto.response.ResidentAndFireStationByAddress;
 import com.openclassrooms.safetynet.model.PersonModel;
 import com.openclassrooms.safetynet.services.IPersonService;
+
+import jakarta.validation.Valid;
 
 import com.openclassrooms.safetynet.services.IGetResidentAndFirestationByAddress;
 
@@ -24,7 +27,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@RestController
+@RestController 
+@Validated
 public class PersonController {
 	
 	@Autowired
@@ -58,14 +62,14 @@ public class PersonController {
 	}
 	
     @PostMapping("/person")
-    public ResponseEntity<HttpStatus> addPerson(@RequestBody PersonModel personModel) {
+    public ResponseEntity<HttpStatus> addPerson(@Valid @RequestBody PersonModel personModel) {
             ipersonservice.add(personModel);
             return ResponseEntity.created(null).build();
 
     }
 
     @PutMapping("/person/{firstName}/{lastName}")
-    public ResponseEntity<HttpStatus> updatePerson(@PathVariable String firstName, @PathVariable String lastName, @RequestBody PersonModel personModel) {
+    public ResponseEntity<HttpStatus> updatePerson(@PathVariable String firstName, @PathVariable String lastName,@Valid  @RequestBody PersonModel personModel) {
             ipersonservice.update(firstName, lastName, personModel);
             return ResponseEntity.ok().build();
     }

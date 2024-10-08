@@ -1,8 +1,11 @@
 package com.openclassrooms.safetynet.model;
 
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+
 public class FireStationModel {
-	private String address;
-	private int station;
+	@NotEmpty(message = "L'addresse de la station est nécessaire")private String address;
+	@NotNull(message = "Le numéro de la station doit être renseigné")private int station;
 	
 	public FireStationModel() {}
 	

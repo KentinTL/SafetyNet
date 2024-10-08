@@ -2,10 +2,12 @@ package com.openclassrooms.safetynet.model;
 
 import java.util.List;
 
+import jakarta.validation.constraints.NotEmpty;
+
 public class MedicalRecordModel {
-	private String firstName;
-	private String lastName;
-	private String birthdate;
+	@NotEmpty(message = "Le prénom de la personne est obligatoire") private String firstName;
+	@NotEmpty(message = "Le nom de la personne est obligatoire") private String lastName;
+	@NotEmpty(message = "La date de naissance de la personne est obligatoire") private String birthdate;
 	private List<String> medications;
 	private List<String> allergies;
 	
@@ -20,10 +22,8 @@ public class MedicalRecordModel {
 		this.allergies = allergies;
 	}
 	
-	
 	public MedicalRecordModel() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public String getFirstName() {

@@ -1,7 +1,7 @@
 package com.openclassrooms.safetynet.controller.dto.response;
 
 public class PersonDto {
-    private String firstName;
+	private String firstName;
     private String lastName;
     private String address;
     private String city;

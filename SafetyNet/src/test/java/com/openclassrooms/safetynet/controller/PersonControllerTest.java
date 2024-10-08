@@ -119,7 +119,7 @@ public class PersonControllerTest {
     public void testAddPerson_ShouldCreatePerson() throws Exception {
         mockMvc.perform(post("/person")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"firstName\":\"John\", \"lastName\":\"Doe\"}"))
+                .content("{\"firstName\":\"John\", \"lastName\":\"Doe\", \"email\":\"john.doe@test.com\"}"))
                 .andExpect(status().isCreated());
     }
 
@@ -130,7 +130,7 @@ public class PersonControllerTest {
     public void testUpdatePerson_ShouldUpdatePerson() throws Exception {
         mockMvc.perform(put("/person/John/Doe")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"firstName\":\"John\", \"lastName\":\"Doe\", \"address\":\"123 Street\"}"))
+                .content("{\"firstName\":\"John\", \"lastName\":\"Doe\", \"email\":\"john.doe@test.com\", \"address\":\"123 Street\"}"))
                 .andExpect(status().isOk());
     }
 

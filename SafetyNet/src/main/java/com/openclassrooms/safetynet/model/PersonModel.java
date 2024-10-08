@@ -1,14 +1,18 @@
 package com.openclassrooms.safetynet.model;
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotEmpty;
+
 public class PersonModel {
 	
-	private String firstName;
-    private String lastName;
+    @NotEmpty(message = "Votre Prénom doit être renseigné") private String firstName;
+    @NotEmpty(message = "Votre Nom doit être renseigné") private String lastName;
     private String address;
     private String city;
     private String zip;
     private String phone;
-    private String email;
+    @NotEmpty(message = "Votre email doit être renseigné") 
+    @Email(message = "L'email renseigné n'est pas valide")private String email;
     
 
 	public PersonModel(String firstName, String lastName, String address, String city, String zip, String phone,
@@ -23,12 +27,9 @@ public class PersonModel {
 		this.email = email;
 	}
 	
-	
 	public PersonModel() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
-
 
 	public String getFirstName() {
 		return firstName;

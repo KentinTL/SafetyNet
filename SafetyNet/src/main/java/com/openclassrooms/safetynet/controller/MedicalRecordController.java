@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.openclassrooms.safetynet.model.MedicalRecordModel;
 import com.openclassrooms.safetynet.services.IMedicalRecordService;
 
+import jakarta.validation.Valid;
+
 @RestController
 public class MedicalRecordController {
 	
@@ -28,13 +30,13 @@ public class MedicalRecordController {
 	}
 	
 	@PostMapping("/medicalRecord")
-    public ResponseEntity<HttpStatus> createNewMedicalRecord(@RequestBody MedicalRecordModel medicalRecord) {
+    public ResponseEntity<HttpStatus> createNewMedicalRecord(@Valid @RequestBody MedicalRecordModel medicalRecord) {
         imedicalservice.add(medicalRecord);
         return ResponseEntity.created(null).build();
 	}
 	
     @PutMapping("/medicalRecord/{firstName}/{lastName}")
-    public ResponseEntity<HttpStatus> updateMedicalRecord(@PathVariable String firstName, @PathVariable String lastName, @RequestBody MedicalRecordModel medicalRecord) {
+    public ResponseEntity<HttpStatus> updateMedicalRecord(@PathVariable String firstName, @PathVariable String lastName, @Valid  @RequestBody MedicalRecordModel medicalRecord) {
         imedicalservice.update(firstName, lastName, medicalRecord);
         return ResponseEntity.ok().build();
     }

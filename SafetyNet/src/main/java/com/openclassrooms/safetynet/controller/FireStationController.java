@@ -15,6 +15,9 @@ import com.openclassrooms.safetynet.controller.dto.response.PersonPhoneNumber;
 import com.openclassrooms.safetynet.controller.dto.response.ResidentAndFireStationsByListOfFireSations;
 import com.openclassrooms.safetynet.model.FireStationModel;
 import com.openclassrooms.safetynet.services.IFireStationService;
+
+import jakarta.validation.Valid;
+
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -46,13 +49,13 @@ public class FireStationController {
     }
 	
 	@PostMapping("/firestation")
-	public ResponseEntity<HttpStatus> addFirstation(@RequestBody FireStationModel fireStationModel) {
+	public ResponseEntity<HttpStatus> addFirstation( @Valid @RequestBody FireStationModel fireStationModel) {
 		ifirestationservice.add(fireStationModel);
         return ResponseEntity.created(null).build();
 	}
 	
 	@PutMapping("/firestation/{address}")
-	public ResponseEntity<HttpStatus> addFirstation(@PathVariable String address, @RequestBody FireStationModel fireStationModel) {
+	public ResponseEntity<HttpStatus> addFirstation(@PathVariable String address, @Valid @RequestBody FireStationModel fireStationModel) {
 		ifirestationservice.update(address, fireStationModel);
         return ResponseEntity.ok().build();
 	}

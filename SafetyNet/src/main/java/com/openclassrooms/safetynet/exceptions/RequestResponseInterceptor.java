@@ -27,12 +27,12 @@ public class RequestResponseInterceptor implements Filter {
 		HttpServletResponse httpServletResponse = (HttpServletResponse) response;
 		logger.info("Incoming request - {} {} ", httpServletRequest.getMethod(), httpServletRequest.getRequestURL());
 
-		if (httpServletRequest.getMethod().equals("POST") || httpServletRequest.getMethod().equals("PUT")) {
-			var requestBody = new RequestWrapper((HttpServletRequest) request);
-			logger.info("Incoming body - {} ", requestBody.getBody());
-		}
+//		if (httpServletRequest.getMethod().equals("POST") || httpServletRequest.getMethod().equals("PUT")) {
+//			var requestBody = new RequestWrapper((HttpServletRequest) request);
+//			logger.info("Incoming body - {} ", requestBody.getBody());
+//		}
 
-//		chain.doFilter(httpServletRequest, httpServletResponse);
+		chain.doFilter(httpServletRequest, httpServletResponse);
 		logger.info("Response sent with status code = {} ", httpServletResponse.getStatus());
 	}
 

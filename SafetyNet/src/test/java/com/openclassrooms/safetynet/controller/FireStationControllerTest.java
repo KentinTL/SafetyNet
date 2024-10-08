@@ -88,7 +88,7 @@ public class FireStationControllerTest {
     public void testAddFireStation_ShouldCreateFireStation() throws Exception {
         mockMvc.perform(post("/firestation")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"address\":\"123 Street\", \"stationNumber\":1}"))
+                .content("{\"address\":\"123 Street\", \"stationNumber\":18}"))
                 .andExpect(status().isCreated());
     }
 
