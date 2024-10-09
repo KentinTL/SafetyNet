@@ -65683,3 +65683,2313 @@
   "threadId" : 1,
   "threadPriority" : 5
 }
+{
+  "instant" : {
+    "epochSecond" : 1728470868,
+    "nanoOfSecond" : 157783600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.FireStationControllerTest]: FireStationControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470868,
+    "nanoOfSecond" : 551284700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470869,
+    "nanoOfSecond" : 156784200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Starting FireStationControllerTest using Java 21 with PID 3364 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470869,
+    "nanoOfSecond" : 167784200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470869,
+    "nanoOfSecond" : 169284800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470871,
+    "nanoOfSecond" : 939354100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470871,
+    "nanoOfSecond" : 939854600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470871,
+    "nanoOfSecond" : 943854000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470871,
+    "nanoOfSecond" : 975354600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Started FireStationControllerTest in 3.317 seconds (process running for 6.171)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 508355400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.MedicalRecordControllerTest]: MedicalRecordControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 523353400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 566855100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Starting MedicalRecordControllerTest using Java 21 with PID 3364 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 569855000
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 570354900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 889353500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 890354400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 891354500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 898354300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Started MedicalRecordControllerTest in 0.371 seconds (process running for 7.094)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 949854100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 963353600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470872,
+    "nanoOfSecond" : 999852900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Starting PersonControllerTest using Java 21 with PID 3364 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470873,
+    "nanoOfSecond" : 1355100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470873,
+    "nanoOfSecond" : 1854100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470873,
+    "nanoOfSecond" : 369884700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470873,
+    "nanoOfSecond" : 370355700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470873,
+    "nanoOfSecond" : 371354400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470873,
+    "nanoOfSecond" : 377854700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Started PersonControllerTest in 0.41 seconds (process running for 7.574)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470874,
+    "nanoOfSecond" : 544367100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.SafetyNetApplicationTests]: SafetyNetApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470874,
+    "nanoOfSecond" : 562856200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470874,
+    "nanoOfSecond" : 607355400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Starting SafetyNetApplicationTests using Java 21 with PID 3364 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470874,
+    "nanoOfSecond" : 608354600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470874,
+    "nanoOfSecond" : 609357200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470876,
+    "nanoOfSecond" : 510354700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Started SafetyNetApplicationTests in 1.938 seconds (process running for 10.706)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470892,
+    "nanoOfSecond" : 514694200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.FireStationControllerTest]: FireStationControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470892,
+    "nanoOfSecond" : 879194700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470893,
+    "nanoOfSecond" : 481694400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Starting FireStationControllerTest using Java 21 with PID 15728 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470893,
+    "nanoOfSecond" : 496197000
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470893,
+    "nanoOfSecond" : 498194000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470896,
+    "nanoOfSecond" : 149694500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470896,
+    "nanoOfSecond" : 150693900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470896,
+    "nanoOfSecond" : 155192800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470896,
+    "nanoOfSecond" : 185693900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Started FireStationControllerTest in 3.206 seconds (process running for 5.945)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470896,
+    "nanoOfSecond" : 695195200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.MedicalRecordControllerTest]: MedicalRecordControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470896,
+    "nanoOfSecond" : 710694100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470896,
+    "nanoOfSecond" : 762193800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Starting MedicalRecordControllerTest using Java 21 with PID 15728 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470896,
+    "nanoOfSecond" : 763693500
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470896,
+    "nanoOfSecond" : 764695000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 78195700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 78692600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 79694700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 0 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 87193900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Started MedicalRecordControllerTest in 0.372 seconds (process running for 6.846)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 141694100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 155693300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 193194200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Starting PersonControllerTest using Java 21 with PID 15728 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 194193900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 194694100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 547194200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 548194900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 549194300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470897,
+    "nanoOfSecond" : 556726200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Started PersonControllerTest in 0.394 seconds (process running for 7.316)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470898,
+    "nanoOfSecond" : 783196300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.SafetyNetApplicationTests]: SafetyNetApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470898,
+    "nanoOfSecond" : 810194700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470898,
+    "nanoOfSecond" : 888193800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Starting SafetyNetApplicationTests using Java 21 with PID 15728 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470898,
+    "nanoOfSecond" : 889694800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470898,
+    "nanoOfSecond" : 890195000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728470900,
+    "nanoOfSecond" : 731192900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Started SafetyNetApplicationTests in 1.88 seconds (process running for 10.49)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471385,
+    "nanoOfSecond" : 287294200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.FireStationControllerTest]: FireStationControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471385,
+    "nanoOfSecond" : 649796000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471386,
+    "nanoOfSecond" : 278793800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Starting FireStationControllerTest using Java 21 with PID 2328 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471386,
+    "nanoOfSecond" : 294297300
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471386,
+    "nanoOfSecond" : 295296200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471388,
+    "nanoOfSecond" : 969794500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471388,
+    "nanoOfSecond" : 970792500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471388,
+    "nanoOfSecond" : 974294700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 13295600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Started FireStationControllerTest in 3.255 seconds (process running for 5.974)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 514795900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.MedicalRecordControllerTest]: MedicalRecordControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 527794800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 576294700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Starting MedicalRecordControllerTest using Java 21 with PID 2328 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 577295800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 578294800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 866794500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 867795200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 868795200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 0 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 876294800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Started MedicalRecordControllerTest in 0.344 seconds (process running for 6.837)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 928295000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 941794300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 976295300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Starting PersonControllerTest using Java 21 with PID 2328 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 977293800
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471389,
+    "nanoOfSecond" : 977794900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471390,
+    "nanoOfSecond" : 340829300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471390,
+    "nanoOfSecond" : 341325300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471390,
+    "nanoOfSecond" : 342320200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471390,
+    "nanoOfSecond" : 348794500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Started PersonControllerTest in 0.403 seconds (process running for 7.309)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471391,
+    "nanoOfSecond" : 552794100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.SafetyNetApplicationTests]: SafetyNetApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471391,
+    "nanoOfSecond" : 567794100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471391,
+    "nanoOfSecond" : 611795600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Starting SafetyNetApplicationTests using Java 21 with PID 2328 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471391,
+    "nanoOfSecond" : 612794900
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471391,
+    "nanoOfSecond" : 613295300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471393,
+    "nanoOfSecond" : 374794500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Started SafetyNetApplicationTests in 1.798 seconds (process running for 10.335)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471613,
+    "nanoOfSecond" : 497903700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.FireStationControllerTest]: FireStationControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471613,
+    "nanoOfSecond" : 821906400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471614,
+    "nanoOfSecond" : 368872400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Starting FireStationControllerTest using Java 21 with PID 10684 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471614,
+    "nanoOfSecond" : 380373200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471614,
+    "nanoOfSecond" : 381373200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471617,
+    "nanoOfSecond" : 25087400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471617,
+    "nanoOfSecond" : 25587200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471617,
+    "nanoOfSecond" : 29587300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 2 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471617,
+    "nanoOfSecond" : 64087400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Started FireStationControllerTest in 3.152 seconds (process running for 5.813)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471617,
+    "nanoOfSecond" : 644587100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.MedicalRecordControllerTest]: MedicalRecordControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471617,
+    "nanoOfSecond" : 659587800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471617,
+    "nanoOfSecond" : 700087300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Starting MedicalRecordControllerTest using Java 21 with PID 10684 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471617,
+    "nanoOfSecond" : 701087700
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471617,
+    "nanoOfSecond" : 702088400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 1587100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 2587100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 3587300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 10587300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Started MedicalRecordControllerTest in 0.346 seconds (process running for 6.76)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 63087800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 76588000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 110587600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Starting PersonControllerTest using Java 21 with PID 10684 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 112087400
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 112587100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 470086600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 470587000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 471587300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 0 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471618,
+    "nanoOfSecond" : 478619500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Started PersonControllerTest in 0.398 seconds (process running for 7.228)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471619,
+    "nanoOfSecond" : 742088200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.SafetyNetApplicationTests]: SafetyNetApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471619,
+    "nanoOfSecond" : 757088600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471619,
+    "nanoOfSecond" : 815588300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Starting SafetyNetApplicationTests using Java 21 with PID 10684 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471619,
+    "nanoOfSecond" : 817087000
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471619,
+    "nanoOfSecond" : 844087900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471621,
+    "nanoOfSecond" : 566088200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Started SafetyNetApplicationTests in 1.798 seconds (process running for 10.315)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471888,
+    "nanoOfSecond" : 59148300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.FireStationControllerTest]: FireStationControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471888,
+    "nanoOfSecond" : 416648700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471888,
+    "nanoOfSecond" : 981649800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Starting FireStationControllerTest using Java 21 with PID 1888 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471888,
+    "nanoOfSecond" : 996148000
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471888,
+    "nanoOfSecond" : 997648900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471891,
+    "nanoOfSecond" : 703119000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471891,
+    "nanoOfSecond" : 704119500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471891,
+    "nanoOfSecond" : 707620200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 2 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471891,
+    "nanoOfSecond" : 744119800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.FireStationControllerTest",
+  "message" : "Started FireStationControllerTest in 3.233 seconds (process running for 5.899)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 344119900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.MedicalRecordControllerTest]: MedicalRecordControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 361120600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 407119800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Starting MedicalRecordControllerTest using Java 21 with PID 1888 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 408620000
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 409120200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 738619700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 739119700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 740120000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 747620500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.MedicalRecordControllerTest",
+  "message" : "Started MedicalRecordControllerTest in 0.379 seconds (process running for 6.903)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 803618900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.controller.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 818619600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 853119200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Starting PersonControllerTest using Java 21 with PID 1888 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 854620600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471892,
+    "nanoOfSecond" : 855118900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471893,
+    "nanoOfSecond" : 222820300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.mock.web.SpringBootMockServletContext",
+  "message" : "Initializing Spring TestDispatcherServlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471893,
+    "nanoOfSecond" : 223320200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Initializing Servlet ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471893,
+    "nanoOfSecond" : 224322900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.web.servlet.TestDispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471893,
+    "nanoOfSecond" : 231821800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.controller.PersonControllerTest",
+  "message" : "Started PersonControllerTest in 0.409 seconds (process running for 7.387)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471894,
+    "nanoOfSecond" : 377610100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.test.context.support.AnnotationConfigContextLoaderUtils",
+  "message" : "Could not detect default configuration classes for test class [com.openclassrooms.safetynet.SafetyNetApplicationTests]: SafetyNetApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471894,
+    "nanoOfSecond" : 393109200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.test.context.SpringBootTestContextBootstrapper",
+  "message" : "Found @SpringBootConfiguration com.openclassrooms.safetynet.SafetyNetApplication for test class com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471894,
+    "nanoOfSecond" : 432610100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Starting SafetyNetApplicationTests using Java 21 with PID 1888 (started by qthib in C:\\Users\\qthib\\git\\SafetyNetProject\\SafetyNet)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471894,
+    "nanoOfSecond" : 434111200
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Running with Spring Boot v3.3.0, Spring v6.1.8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471894,
+    "nanoOfSecond" : 434609800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
+{
+  "instant" : {
+    "epochSecond" : 1728471896,
+    "nanoOfSecond" : 97110100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.openclassrooms.safetynet.SafetyNetApplicationTests",
+  "message" : "Started SafetyNetApplicationTests in 1.697 seconds (process running for 10.252)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5
+}
