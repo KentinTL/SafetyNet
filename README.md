@@ -22,7 +22,7 @@ SafetyNet est une application de secours qui permet de récupérer des informati
 
 ## Technologies utilisées
 
-- **Java 11**
+- **Java 21**
 - **Spring Boot** - Cadre utilisé pour développer l'application
 - **Maven** - Gestionnaire de dépendances
 - **JUnit & JaCoCo** - Pour les tests unitaires et la couverture du code
